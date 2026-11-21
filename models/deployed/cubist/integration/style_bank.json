@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "style": "cubist",
+  "display_name": "立体派",
+  "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+  "weight_bytes": 63296,
+  "weight_crc32": 1477457,
+  "weight_sha256": "388cafe16c9c9079163e4ad6dc4c5ecbb9b85cde6597b45803580b5e8164e559",
+  "affine_bytes": 3200,
+  "affine_crc32": 2650400626,
+  "affine_sha256": "d7c1c9af9a4f0c5e80573517cb8b31557d952441f2e4266bae2a1feff2ba2eb7",
+  "relative_weight_offset": 262144,
+  "relative_affine_offset": 327680,
+  "absolute_weight_flash_address": 4456448,
+  "absolute_affine_flash_address": 4521984,
+  "project_version": "versions/latest",
+  "decoder_IN_pixels": [
+    9216,
+    36864
+  ]
+}

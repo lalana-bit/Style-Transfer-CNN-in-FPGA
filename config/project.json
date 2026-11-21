@@ -9,8 +9,8 @@
   "setup_WNS_ns": 0.048,
   "hold_WNS_ns": 0.024,
   "experimental": true,
-  "bit_sha256": "97f8f5331d1a973344a8afe5c5bb18af026f2c07dd72a4cedf685956158d3eac",
-  "hex_sha256": "2b83afbe609c96f89693178f1a377de8a08ddc2ed58e7a344e4655651b75fccd",
+  "bit_sha256": "57ac90d180c0841e3ef269487e5b4e6af5e53fa4ebae90dd3616f156923b03f9",
+  "hex_sha256": "07d8cbd916c0871a871de544c95ebcc753c36ccaa916179f3c2bd32c2e89bf9b",
   "includes_static_images": false,
   "includes_voice_control": false
 }

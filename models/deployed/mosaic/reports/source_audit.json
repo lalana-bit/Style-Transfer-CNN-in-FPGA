@@ -1,0 +1,24 @@
+{
+  "input_archives": {
+    "D:\\download\\Ti60_FourStyle_IN15_v2.zip": "0d41dd822af4937b6ce10e9191e868cc11d9f8e1cc995d22eb5ebe26e7f5f92a",
+    "D:\\download\\48fccc723348bc4745afe1929d1855e4_2026671680543555062_m (1).zip": "5a6088946e95c5f540929f24f5fbe440a00aa25586260065b0b56c1b7affb769"
+  },
+  "selected_project": "D:\\download\\Ti60_FourStyle_IN15_v2.zip",
+  "selection_reason": "contains latest two-standard-residual/up-first RTL and its explicit training model",
+  "selected_version": "versions/latest",
+  "archive_file_counts": [
+    619,
+    523
+  ],
+  "shared_changed": [
+    "Ti60_FourStyle_IN15/tools/verify_project.py",
+    "Ti60_FourStyle_IN15/tools/export_static_images.py",
+    "Ti60_FourStyle_IN15/docs/reproduce.md",
+    "Ti60_FourStyle_IN15/tools/build.py",
+    "Ti60_FourStyle_IN15/.gitignore",
+    "Ti60_FourStyle_IN15/models/README.md",
+    "Ti60_FourStyle_IN15/build.ps1",
+    "Ti60_FourStyle_IN15/README.md"
+  ],
+  "source_architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1"
+}

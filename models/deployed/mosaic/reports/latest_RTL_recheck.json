@@ -1,0 +1,19 @@
+{
+  "style": "mosaic",
+  "latest_RTL": true,
+  "vendor_RAM10_DSP24_models": false,
+  "behavioral_RAM_DSP_implementations": true,
+  "input_hw": [
+    8,
+    16
+  ],
+  "frames": 2,
+  "RGB_pixels_checked": 256,
+  "IN_sites": 15,
+  "IN_channels_updated_between_frames": 400,
+  "all_raw_IN_sums_and_squares_exact": true,
+  "exported_seed_used": true,
+  "passed": true,
+  "elapsed_s": 149.48400000000038,
+  "simulation_stdout": "loaded weights time=264504000\nPASS frame=0 RGB=128 all15_IN_stats_exact=1\nPASS frame=1 RGB=128 all15_IN_stats_exact=1\nPASS latest upfirst RTL with trained weights, both frames, 400 dynamic IN updates\nD:\\AAA\\Ti60_fourstyle_retrain_20261114\\latest_recheck\\mosaic\\tb.sv:66: $finish called at 1027442640 (1ps)\n"
+}

@@ -1,0 +1,57 @@
+{
+  "resources": {
+    "XLR": 59684,
+    "RAM": 245,
+    "DSP": 119
+  },
+  "setup_WNS_ns": 0.048,
+  "hold_WNS_ns": 0.024,
+  "embedded_CPU_RAM": [
+    {
+      "lane": 0,
+      "bytes": 4096,
+      "embedded_RAM_matches_firmware": true
+    },
+    {
+      "lane": 1,
+      "bytes": 4096,
+      "embedded_RAM_matches_firmware": true
+    },
+    {
+      "lane": 2,
+      "bytes": 4096,
+      "embedded_RAM_matches_firmware": true
+    },
+    {
+      "lane": 3,
+      "bytes": 4096,
+      "embedded_RAM_matches_firmware": true
+    }
+  ],
+  "trained_styles": [
+    "starry",
+    "cubist",
+    "mosaic"
+  ],
+  "retained_existing_styles": [
+    "abstract"
+  ],
+  "RTL_unchanged": true,
+  "weight_layout_unchanged": true,
+  "flash_written": true,
+  "bit_sha256": "57ac90d180c0841e3ef269487e5b4e6af5e53fa4ebae90dd3616f156923b03f9",
+  "hex_sha256": "07d8cbd916c0871a871de544c95ebcc753c36ccaa916179f3c2bd32c2e89bf9b",
+  "CPU_sha256": "03ba16daa7f9f6265e89a13011d2181106fa6cb6f75477ada978b593f90b84d9",
+  "flash_regions_verified": true,
+  "board_programmed": true,
+  "flash_readback_verified": true,
+  "board_inference_visually_verified": false,
+  "programmed_at": "2026-11-21T20:52:15",
+  "FPGA_ID": "0x10660A79",
+  "flash_detected": "Winbond W25Q64",
+  "flash_JEDEC_ID": "0xEF6017",
+  "program_address": 0,
+  "program_bytes": 4787328,
+  "verify_method": "hostx1",
+  "JTAG_application_downloaded": true
+}

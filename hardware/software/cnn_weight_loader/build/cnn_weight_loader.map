@@ -39,17 +39,17 @@ E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/../../../../risc
 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/../../../../riscv-none-elf/lib/rv32i/ilp32\libnosys.a(sbrk.o)
                               E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/../../../../riscv-none-elf/lib/rv32i/ilp32\libc.a(libc_a-sbrkr.o) (_sbrk)
 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(_ashldi3.o)
-                              C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o (__ashldi3)
+                              C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o (__ashldi3)
 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(_divdi3.o)
-                              C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o (__divdi3)
+                              C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o (__divdi3)
 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(_udivdi3.o)
-                              C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o (__udivdi3)
+                              C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o (__udivdi3)
 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(save-restore.o)
-                              C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o (__riscv_save_12)
+                              C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o (__riscv_save_12)
 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(muldi3.o)
                               E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(_divdi3.o) (__mulsi3)
 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(multi3.o)
-                              C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o (__muldi3)
+                              C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o (__muldi3)
 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(div.o)
                               E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(_divdi3.o) (__udivsi3)
 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(_clz.o)
@@ -78,15 +78,15 @@ cnn_switch_error    0x4               build/obj_files/cnn_weight_loader.o (symbo
 
 Discarded input sections
 
- .text          0x00000000        0x0 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
- .data          0x00000000        0x0 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
- .bss           0x00000000        0x0 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
- .text._close   0x00000000       0x14 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
- .text._lseek   0x00000000       0x14 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
- .text._read    0x00000000       0x14 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
- .text._write   0x00000000        0x8 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
+ .text._close   0x00000000       0x14 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
+ .text._lseek   0x00000000       0x14 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
+ .text._read    0x00000000       0x14 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
+ .text._write   0x00000000        0x8 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_image_crc
-                0x00000000        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0x00000000        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text          0x00000000        0x0 build/obj_files/start.o
  .data          0x00000000        0x0 build/obj_files/start.o
  .bss           0x00000000        0x0 build/obj_files/start.o
@@ -353,7 +353,7 @@ ram              0xf9000000         0x00004000         axwl!r
 Linker script and memory map
 
 LOAD build/obj_files/cnn_weight_loader.o
-LOAD C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+LOAD C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
 LOAD build/obj_files/start.o
 LOAD build/obj_files/syscalls.o
 LOAD E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/../../../../riscv-none-elf/lib/rv32i/ilp32\libc.a
@@ -387,37 +387,37 @@ LOAD E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32
  *(.text.unlikely .text.unlikely.*)
  *(.text.startup .text.startup.*)
  .text.startup.main
-                0xf9000104      0x7b8 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9000104      0x7b8 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
                 0xf9000104                main
  *(.text .text.*)
  .text.stop_with_error
-                0xf90008bc       0x14 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf90008bc       0x14 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.wait_status
-                0xf90008d0       0x60 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf90008d0       0x60 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.crc32_update.constprop.0
-                0xf9000930       0x48 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9000930       0x48 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.camera_wait.constprop.0
-                0xf9000978       0x40 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9000978       0x40 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.camera_command
-                0xf90009b8       0x40 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf90009b8       0x40 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.camera_send
-                0xf90009f8       0x88 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf90009f8       0x88 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.spi_write.constprop.0
-                0xf9000a80       0x2c C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9000a80       0x2c C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.spiFlash_f2m.constprop.0
-                0xf9000aac       0xf0 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9000aac       0xf0 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.cnn_read_affine
-                0xf9000b9c       0xdc C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9000b9c       0xdc C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.cnn_in_validate_affine
-                0xf9000c78       0x98 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9000c78       0x98 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.load_style
-                0xf9000d10       0xf0 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9000d10       0xf0 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.cnn_in_service
-                0xf9000e00      0x8c8 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9000e00      0x8c8 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.clint_uDelay.constprop.0
-                0xf90016c8       0x34 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf90016c8       0x34 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.spi_waitXferBusy.constprop.0
-                0xf90016fc       0x30 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf90016fc       0x30 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .text.__ashldi3
                 0xf900172c       0x34 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(_ashldi3.o)
                 0xf900172c                __ashldi3
@@ -521,15 +521,15 @@ LOAD E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32
  *(.rdata)
  *(.rodata .rodata.*)
  .rodata.camera_sequence
-                0xf9002708      0x300 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002708      0x300 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .rodata.style_weight_offset
-                0xf9002a08       0x10 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002a08       0x10 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .rodata.style_weight_crc
-                0xf9002a18       0x10 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002a18       0x10 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .rodata.style_affine_offset
-                0xf9002a28       0x10 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002a28       0x10 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .rodata.style_affine_crc
-                0xf9002a38       0x10 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002a38       0x10 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .rodata.__clz_tab
                 0xf9002a48      0x100 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32\libgcc.a(_clz.o)
                 0xf9002a48                __clz_tab
@@ -540,11 +540,11 @@ LOAD E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32
                 0xf9003338                        PROVIDE (__global_pointer$ = (. + 0x7f0))
  *(.sdata .sdata.*)
  .sdata.cnn_flash_offset
-                0xf9002b48        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b48        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sdata.cnn_in_parallel
-                0xf9002b4c        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b4c        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sdata.cnn_control_busy
-                0xf9002b50        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b50        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  *(.gnu.linkonce.s.*)
                 0xf9002b58                        . = ALIGN (0x8)
  *fill*         0xf9002b54        0x4 
@@ -564,53 +564,53 @@ LOAD E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/rv32i/ilp32
 .bss            0xf9002b64      0x23c
  *(.sbss*)
  .sbss.cnn_bytes_sent
-                0xf9002b64        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b64        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_switch_count
-                0xf9002b68        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b68        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_switch_error
-                0xf9002b6c        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b6c        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_boot_stage
-                0xf9002b70        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b70        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_cached_styles
-                0xf9002b74        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b74        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_boot_error
-                0xf9002b78        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b78        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_in_updates
-                0xf9002b7c        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b7c        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_in_last_root
-                0xf9002b80        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b80        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_in_capture_errors
-                0xf9002b84        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b84        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_in_frozen
-                0xf9002b88        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b88        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_in_freeze_request
-                0xf9002b8c        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b8c        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_in_cursor
-                0xf9002b90        0x1 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b90        0x1 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  *fill*         0xf9002b91        0x3 
  .sbss.cnn_in_next
-                0xf9002b94        0x3 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b94        0x3 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  *fill*         0xf9002b97        0x1 
  .sbss.cnn_in_next_layer
-                0xf9002b98        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b98        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_in_waiting
-                0xf9002b9c        0x1 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b9c        0x1 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_in_mode_active
-                0xf9002b9d        0x1 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002b9d        0x1 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  *fill*         0xf9002b9e        0x2 
  .sbss.cnn_in_runtime_error
-                0xf9002ba0        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002ba0        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_in_affine_checked
-                0xf9002ba4        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002ba4        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_active_style
-                0xf9002ba8        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002ba8        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .sbss.cnn_runtime_fault
-                0xf9002bac        0x4 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002bac        0x4 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  *(.gnu.linkonce.sb.*)
  *(.bss .bss.*)
  .bss.cnn_in_profile
-                0xf9002bb0       0xf0 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
- .bss.chunk     0xf9002ca0      0x100 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0xf9002bb0       0xf0 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
+ .bss.chunk     0xf9002ca0      0x100 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  *(.gnu.linkonce.b.*)
  *(COMMON)
                 0xf9002da0                        . = ALIGN (0x4)
@@ -638,7 +638,7 @@ END GROUP
 OUTPUT(build/cnn_weight_loader.elf elf32-littleriscv)
 
 .comment        0x00000000       0x33
- .comment       0x00000000        0x0 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+ .comment       0x00000000        0x0 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
                                  0x34 (size before relaxing)
  .comment       0x00000000       0x33 E:/Efinity_riscv/toolchain/bin/../lib/gcc/riscv-none-elf/13.4.0/../../../../riscv-none-elf/lib/rv32i/ilp32\libc.a(libc_a-init.o)
                                  0x34 (size before relaxing)
@@ -656,7 +656,7 @@ OUTPUT(build/cnn_weight_loader.elf elf32-littleriscv)
 .riscv.attributes
                 0x00000000       0x31
  .riscv.attributes
-                0x00000000       0x31 C:\Users\lalana\AppData\Local\Temp\ccbQTrOY.ltrans0.ltrans.o
+                0x00000000       0x31 C:\Users\lalana\AppData\Local\Temp\ccAqluo0.ltrans0.ltrans.o
  .riscv.attributes
                 0x00000031       0x2f build/obj_files/start.o
  .riscv.attributes

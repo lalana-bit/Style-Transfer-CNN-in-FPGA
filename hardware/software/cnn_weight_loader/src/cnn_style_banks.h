@@ -4,17 +4,17 @@
 #define WEIGHT_BYTES 63296u
 #define STYLE_COUNT 4u
 static const uint32_t style_weight_crc[STYLE_COUNT] = {
-    0x77df0b16u,
-    0xca31c1aau,
+    0x7fdb2597u,
+    0x00168b51u,
     0x70aeb8d4u,
-    0xda3772f9u,
+    0xcaecab30u,
 
 };
 static const uint32_t style_affine_crc[STYLE_COUNT] = {
-    0x0c19a040u,
-    0x3ec80b28u,
+    0x7a182155u,
+    0x9df9e772u,
     0x8bb49bfeu,
-    0x966e305fu,
+    0x209e642eu,
 };
 static const uint32_t style_weight_offset[STYLE_COUNT] = {
     0x00000000u,

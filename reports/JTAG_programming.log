@@ -1,0 +1,6 @@
+Connecting to JTAG_TAP: efx_ti
+jtag programming started!
+JTAG Programming on ftdi://0x0403:0x6011:3:b/2
+Programming 'E:\sth_interesting\elinx_project\Ti60_FourStyle_IN15\hardware\outflow\ti60f225_oob.bit' via JTAG at freq 6.0 MHz
+Device ID read from JTAG: 0x10660A79
+... finished with JTAG programming

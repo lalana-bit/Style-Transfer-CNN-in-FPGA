@@ -1,0 +1,146 @@
+{
+  "style": "cubist",
+  "fp32_steps": 2400,
+  "qat_steps": 600,
+  "batch": 6,
+  "lr": 0.0002,
+  "qat_lr": 1e-05,
+  "eval_every": 400,
+  "seed": 20261114,
+  "device": "cuda",
+  "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+  "convolutions": 16,
+  "in_sites": [
+    "stem",
+    "enc1",
+    "enc2",
+    "body.0.conv1",
+    "body.0.conv2",
+    "body.1.conv1",
+    "body.1.conv2",
+    "body.2.dw",
+    "body.2.pw",
+    "body.3.dw",
+    "body.3.pw",
+    "body.4.dw",
+    "body.4.pw",
+    "decode_pw",
+    "decode1"
+  ],
+  "IN_channels": 400,
+  "parameters": 53955,
+  "trace": {
+    "enc2": {
+      "input": [
+        1,
+        16,
+        72,
+        128
+      ],
+      "output": [
+        1,
+        32,
+        36,
+        64
+      ]
+    },
+    "body.4": {
+      "input": [
+        1,
+        32,
+        36,
+        64
+      ],
+      "output": [
+        1,
+        32,
+        36,
+        64
+      ]
+    },
+    "decode_pw": {
+      "input": [
+        1,
+        32,
+        72,
+        128
+      ],
+      "output": [
+        1,
+        16,
+        72,
+        128
+      ]
+    },
+    "decode1": {
+      "input": [
+        1,
+        16,
+        144,
+        256
+      ],
+      "output": [
+        1,
+        8,
+        144,
+        256
+      ]
+    },
+    "out": {
+      "input": [
+        1,
+        8,
+        144,
+        256
+      ],
+      "output": [
+        1,
+        3,
+        144,
+        256
+      ]
+    }
+  },
+  "data": {
+    "train": {
+      "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\train_content.npy",
+      "target": "D:\\AAA\\Ti60_fourstyle_retrain_20261114\\Ti60_FourStyle_IN15\\build\\retraining_upfirst\\data\\cubist\\train_target.npy",
+      "count": 2560,
+      "indices": null,
+      "content_sha256": "caaa6a2b8dd864f01a3073ac25850219eb4da391e0312e762e6e04e26b30e5a6",
+      "target_sha256": "db19318b49664cc8d43777e28f8d1c168931dd71b43d17732664ec60757fe104"
+    },
+    "val": {
+      "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\val_content.npy",
+      "target": "D:\\AAA\\Ti60_fourstyle_retrain_20261114\\Ti60_FourStyle_IN15\\build\\retraining_upfirst\\data\\cubist\\val_target.npy",
+      "count": 144,
+      "indices": null,
+      "content_sha256": "ef555aef9be509866eb39666207af2b9a9321733c5a0daeaeb24d0e4dd6a8194",
+      "target_sha256": "507aefeebf2da4472a22b33fa2b46daa3055c8399155452e63c6179e8e46bcfa"
+    },
+    "test": {
+      "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\test_content.npy",
+      "target": "D:\\AAA\\Ti60_fourstyle_retrain_20261114\\Ti60_FourStyle_IN15\\build\\retraining_upfirst\\data\\cubist\\test_target.npy",
+      "count": 144,
+      "indices": null,
+      "content_sha256": "688fbf826ebdf3945b4cba270ca43ca359615a9738f5955c315f95331e96b57d",
+      "target_sha256": "727c56e95a198cdd2be279213bacef0353502196dffbf4b9aced3218dc8736c4"
+    },
+    "external_test": {
+      "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\external_test_content.npy",
+      "target": "D:\\AAA\\Ti60_fourstyle_retrain_20261114\\Ti60_FourStyle_IN15\\build\\retraining_upfirst\\data\\cubist\\external_test_target.npy",
+      "count": 4,
+      "indices": null,
+      "content_sha256": "5e72ac0e2ee3ef6e9f5981c86d382fe95a67d694deba60718c0505577b0498c0",
+      "target_sha256": "dabc0ea738a9be83fde218104ca3a3b9e8a8931731348bf2f2180efebf5deaab"
+    },
+    "target_source": "Supplied trained FP32 cubist Codec16IN checkpoint"
+  },
+  "initialization": "Embed supplied DW/PW into dense 3x3 kernels and expand decoder projection at center",
+  "initial_checkpoint_sha256": "33e2071eb0ddaa7ac64be7993630c362bc9edb3ac452ec23c664f580807d22c0",
+  "objective": "L1 + 0.5 pooled L1 + 0.35 gradient L1 + 0.5 mean-color L1",
+  "selection": "validation objective only",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch_version": "2.11.0+cu128",
+  "history_delay_in_training": false
+}

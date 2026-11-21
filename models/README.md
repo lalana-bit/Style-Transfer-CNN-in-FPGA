@@ -1,10 +1,12 @@
+> 当前硬件重训交付包：星空、立体派、马赛克位于[deployed](deployed/README.md)，与当前硬件结构一致。以下各风格目录保留原训练资料；抽象派本轮未更新。
+
 > 本目录保留原训练资料，不代表可直接将原训练权重用于当前FPGA网络。工程入口以根README为准；最新网络定义见`common/model_codec16_std_two_upfirst`。
 
 # 四风格模型与训练边界
 
-公共网络定义、量化器、打包器、整数参考仅保留在`common`一份，四个部署原包及新增抽象派训练包的公共源码已逐字节核对相同。现有检查点不重新训练、不重新解释成其他网络。中文显示名称与目录：星空`starry`、立体派`cubist`、抽象派`abstract`、马赛克`mosaic`。
+公共网络定义、量化器、打包器和整数参考统一放在 `common`。原训练模型和当前重训模型复用相同的基础实现，当前结构另有自己的 QAT 配置。现有检查点不重新训练、不重新解释成其他网络。中文显示名称与目录：星空`starry`、立体派`cubist`、抽象派`abstract`、马赛克`mosaic`。
 
-| 风格 | 检查点 | 部署来源 | 原训练资料 |
+| 风格 | 原训练检查点 | 原量化导出 | 原训练资料 |
 |---|---|---|---|
 | 星空 | FP32.pth、FP32_torchscript.pt、PTQ_calibrated.pth | 所选E012 FP32重新PTQ；有10个校准输入 | 配置/训练历史/选模证据，无完整原训练入口/原始数据 |
 | 立体派 | FP32_best.pt、QAT_master.pt、INT8_tensor_bundle.pt | QAT配套定点数据 | 有原FP32 train.py与硬件QAT算子；原配对数据、SqueezeNet及完整QAT训练调度未随包提供 |
@@ -13,9 +15,9 @@
 
 ## 推理与权重
 
-`python tools/model_workflow.py verify`检查四套结构、数值范围及扫描重建。`infer`提供FP32、即时IN整数诊断和历史帧IN三个模式。`export`将已经量化的分项数据重新构成55段扫描并核对原字节；不把浮点QAT master误称为真实INT8张量。
+`python tools/model_workflow.py verify`检查原训练模型的结构、数值范围及 24960 字节扫描包重建。当前重训模型另有[验证入口](deployed/README.md)。`infer`提供FP32、即时IN整数诊断和历史帧IN三个模式。`export`将已经量化的分项数据重新构成55段扫描并核对原字节；不把浮点QAT master误称为真实INT8张量。
 
-完整PTQ复现入口为`python tools/export_in.py`（星空），输出只在`build/model_exports/starry`。其余三套当前以已交付INT8参数及配套IN/量化表进行确定性重打包；不能仅凭浮点检查点推断缺失的教师生成与历史QAT调度。所有正在使用的部署数据统一位于根`weights`，不在模型目录再保存重复BIN/MEM。
+完整PTQ复现入口为`python tools/export_in.py`（星空），输出只在`build/model_exports/starry`。其余三套当前以已交付INT8参数及配套IN/量化表进行确定性重打包；不能仅凭浮点检查点推断缺失的教师生成与历史QAT调度。当前 FPGA 读取根目录 `weights/runtime` 的运行包。重训模型目录还保留校验和独立推理需要的量化源数据。
 
 ## 可运行的配对微调
 

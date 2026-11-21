@@ -1,0 +1,35 @@
+{
+  "train": {
+    "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\train_content.npy",
+    "target": "D:\\AAA\\Ti60_fourstyle_retrain_20261114\\Ti60_FourStyle_IN15\\build\\retraining_upfirst\\data\\starry\\train_target.npy",
+    "count": 2560,
+    "indices": null,
+    "content_sha256": "caaa6a2b8dd864f01a3073ac25850219eb4da391e0312e762e6e04e26b30e5a6",
+    "target_sha256": "60436e29e0715618720ee62770f2a3322c134f0fdf3e571c9e1d2f2238286f07"
+  },
+  "val": {
+    "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\val_content.npy",
+    "target": "D:\\AAA\\Ti60_fourstyle_retrain_20261114\\Ti60_FourStyle_IN15\\build\\retraining_upfirst\\data\\starry\\val_target.npy",
+    "count": 144,
+    "indices": null,
+    "content_sha256": "ef555aef9be509866eb39666207af2b9a9321733c5a0daeaeb24d0e4dd6a8194",
+    "target_sha256": "6f79318bb1052494eb179c60cfcf093527fe52f5c23821079c9761d8aa95cd42"
+  },
+  "test": {
+    "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\test_content.npy",
+    "target": "D:\\AAA\\Ti60_fourstyle_retrain_20261114\\Ti60_FourStyle_IN15\\build\\retraining_upfirst\\data\\starry\\test_target.npy",
+    "count": 144,
+    "indices": null,
+    "content_sha256": "688fbf826ebdf3945b4cba270ca43ca359615a9738f5955c315f95331e96b57d",
+    "target_sha256": "f21f2928390f05df71f3faa387d9b56fc85fb3b4fe02fca03c51b07df03318ea"
+  },
+  "external_test": {
+    "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\external_test_content.npy",
+    "target": "D:\\AAA\\Ti60_fourstyle_retrain_20261114\\Ti60_FourStyle_IN15\\build\\retraining_upfirst\\data\\starry\\external_test_target.npy",
+    "count": 4,
+    "indices": null,
+    "content_sha256": "5e72ac0e2ee3ef6e9f5981c86d382fe95a67d694deba60718c0505577b0498c0",
+    "target_sha256": "0038144eb319aa8699f850cf1e1bc6895c268dd2a2c7d9e1d8a77b36a1d930ad"
+  },
+  "target_source": "Supplied trained FP32 starry Codec16IN checkpoint"
+}

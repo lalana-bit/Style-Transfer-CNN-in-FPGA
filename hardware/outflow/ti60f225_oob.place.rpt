@@ -1,7 +1,7 @@
 
 Elitestek FPGA Placement and Routing.
 Version: 2026.1.132 
-Date: Fri Nov 13 21:35:14 2026
+Date: Sat Nov 21 20:37:53 2026
 
 Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
  
@@ -43,7 +43,7 @@ Top-level Entity Name: ti60f225_oob
 
 ----------- Module Resource Usage Distribution Estimates (end) ----------
 
-Elapsed time for packing: 0 hours 0 minutes 3 seconds
+Elapsed time for packing: 0 hours 0 minutes 4 seconds
 ---------- Resource Summary (begin) ----------
 Inputs: 118 / 1703 (6.93%)
 Outputs: 355 / 2267 (15.66%)
@@ -67,4 +67,4 @@ Memory Blocks: 245 / 256 (95.70%)
 DSP Blocks: 119 / 160 (74.38%)
 ---------- Resource Summary (end) ----------
 
-Elapsed time for placement: 0 hours 2 minutes 1 seconds
+Elapsed time for placement: 0 hours 2 minutes 18 seconds

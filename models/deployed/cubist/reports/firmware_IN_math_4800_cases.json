@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "actual_firmware_C_header": "versions\\latest\\software\\cnn_weight_loader\\src\\cnn_in_math.h",
+  "cases": 4800,
+  "styles": 4,
+  "IN_sites": 15,
+  "brightness_variants": 3,
+  "all_C_and_Python_coefficients_equal": true
+}

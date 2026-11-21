@@ -1,0 +1,8 @@
+{
+  "score": 9.29322428173489,
+  "mae_u8": 30.42230185121298,
+  "psnr_db": 15.736165618506844,
+  "images": 144,
+  "paired_score": 0.22163839638233185,
+  "selection_objective": "retained style-specific perceptual/texture objective"
+}

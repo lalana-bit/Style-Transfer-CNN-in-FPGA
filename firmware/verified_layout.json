@@ -2,9 +2,9 @@
   "file": "FLASH_CNN_CAMERA_START_0x00000000.hex",
   "bytes": 4787328,
   "start_address": "0x00000000",
-  "hex_sha256": "2b83afbe609c96f89693178f1a377de8a08ddc2ed58e7a344e4655651b75fccd",
-  "bit_sha256": "97f8f5331d1a973344a8afe5c5bb18af026f2c07dd72a4cedf685956158d3eac",
-  "CPU_sha256": "3cbb2aa9fcaefc59e5be027765c9cafdcfc99763a7f17d18d434be72171ad372",
+  "hex_sha256": "07d8cbd916c0871a871de544c95ebcc753c36ccaa916179f3c2bd32c2e89bf9b",
+  "bit_sha256": "57ac90d180c0841e3ef269487e5b4e6af5e53fa4ebae90dd3616f156923b03f9",
+  "CPU_sha256": "03ba16daa7f9f6265e89a13011d2181106fa6cb6f75477ada978b593f90b84d9",
   "includes_four_test_weight_sets": true,
   "includes_IN_tables": true,
   "includes_static_images": false,
@@ -19,6 +19,16 @@
   },
   "experimental": true,
   "weights_trained_for_new_decoder": false,
-  "board_programmed": false,
-  "flash_written": false
+  "board_programmed": true,
+  "flash_written": true,
+  "trained_styles": [
+    "starry",
+    "cubist",
+    "mosaic"
+  ],
+  "retained_existing_styles": [
+    "abstract"
+  ],
+  "flash_readback_verified": true,
+  "board_inference_visually_verified": false
 }

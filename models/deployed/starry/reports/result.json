@@ -1,0 +1,37 @@
+{
+  "style": "starry",
+  "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+  "baseline": {
+    "score": 0.13217879831790924,
+    "mae_u8": 16.863687001168728,
+    "psnr_db": 20.809246433583574,
+    "images": 144
+  },
+  "fp32_validation": {
+    "score": 0.06654679030179977,
+    "mae_u8": 8.593848757445812,
+    "psnr_db": 26.629146314752283,
+    "images": 144
+  },
+  "qat_validation": {
+    "score": 0.07985026389360428,
+    "mae_u8": 10.471650045365095,
+    "psnr_db": 25.121669955325544,
+    "images": 144
+  },
+  "test": {
+    "score": 0.07820636034011841,
+    "mae_u8": 10.25759233161807,
+    "psnr_db": 25.347957158936577,
+    "images": 144
+  },
+  "external_test": {
+    "score": 0.08015930652618408,
+    "mae_u8": 10.507144890725613,
+    "psnr_db": 25.148868558033165,
+    "images": 4
+  },
+  "elapsed_s": 142.23400000000004,
+  "complete": true,
+  "board_validated": false
+}

@@ -1,0 +1,6 @@
+{
+  "checkpoints/FP32_best.pt": "9241764b483a8f43f5a3a21ee4ca4bdb2979e8b35f0a28199d21da0558f3c63f",
+  "checkpoints/QAT_master.pt": "d4926d065d7b87f830457be750e84d2dcf7961a0ff221481635450e5430ca93f",
+  "model/codec16_rtl_ddr.bin": "25c7a7090bed6d016c525fe64c09b3752458f73cabd0559a3e64b79ea594a26f",
+  "model/IN15_TRAINED_AFFINE.bin": "149476a73bfee3757096fb3535505c83e7e2a6871faeb7b6540762c305dbfb79"
+}

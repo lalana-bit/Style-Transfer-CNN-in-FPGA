@@ -9,8 +9,9 @@
       "weight_flash": 4194304,
       "affine_flash": 4325376,
       "display_name": "星空",
-      "model_directory": "models/starry",
-      "source_weight_directory": "weights/starry"
+      "model_directory": "models/deployed/starry",
+      "source_weight_directory": "weights/starry",
+      "trained_for_upfirst": true
     },
     {
       "id": 1,
@@ -19,8 +20,9 @@
       "weight_flash": 4456448,
       "affine_flash": 4521984,
       "display_name": "立体派",
-      "model_directory": "models/cubist",
-      "source_weight_directory": "weights/cubist"
+      "model_directory": "models/deployed/cubist",
+      "source_weight_directory": "weights/cubist",
+      "trained_for_upfirst": true
     },
     {
       "id": 2,
@@ -39,8 +41,9 @@
       "weight_flash": 4718592,
       "affine_flash": 4784128,
       "display_name": "马赛克",
-      "model_directory": "models/mosaic",
-      "source_weight_directory": "weights/mosaic"
+      "model_directory": "models/deployed/mosaic",
+      "source_weight_directory": "weights/mosaic",
+      "trained_for_upfirst": true
     }
   ],
   "cache_bytes": 66496,

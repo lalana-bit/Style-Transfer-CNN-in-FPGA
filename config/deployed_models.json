@@ -1,0 +1,76 @@
+{
+  "starry": {
+    "slot": 0,
+    "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+    "trained_for_upfirst": true,
+    "source_package": "INT8_IN15_STARRY_UPFIRST_VERIFIED_20261115",
+    "model_directory": "models/deployed/starry",
+    "weight_sha256": "fb9aeb3660ea9651e011a15adcaf371aaf1c58a1f01eb3ccae41b42cfa001638",
+    "affine_sha256": "9bba7f4e20afb77b04f142f5bca42a277142152cab550197ef29c8053059c4e7",
+    "weight_crc32": 2145068439,
+    "affine_crc32": 2048401749,
+    "verification": {
+      "status": "PASS",
+      "hash_files": 81,
+      "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+      "scan_bytes": 63296,
+      "affine_bytes": 3200,
+      "checkpoint_and_INT8_equal": true,
+      "current_and_INT64_equal": true,
+      "grouped_and_serial_history60": true,
+      "board_tested": false
+    }
+  },
+  "cubist": {
+    "slot": 1,
+    "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+    "trained_for_upfirst": true,
+    "source_package": "INT8_IN15_CUBIST_UPFIRST_VERIFIED_20261115",
+    "model_directory": "models/deployed/cubist",
+    "weight_sha256": "388cafe16c9c9079163e4ad6dc4c5ecbb9b85cde6597b45803580b5e8164e559",
+    "affine_sha256": "d7c1c9af9a4f0c5e80573517cb8b31557d952441f2e4266bae2a1feff2ba2eb7",
+    "weight_crc32": 1477457,
+    "affine_crc32": 2650400626,
+    "verification": {
+      "status": "PASS",
+      "hash_files": 81,
+      "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+      "scan_bytes": 63296,
+      "affine_bytes": 3200,
+      "checkpoint_and_INT8_equal": true,
+      "current_and_INT64_equal": true,
+      "grouped_and_serial_history60": true,
+      "board_tested": false
+    }
+  },
+  "mosaic": {
+    "slot": 3,
+    "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+    "trained_for_upfirst": true,
+    "source_package": "INT8_IN15_MOSAIC_UPFIRST_VERIFIED_20261115",
+    "model_directory": "models/deployed/mosaic",
+    "weight_sha256": "25c7a7090bed6d016c525fe64c09b3752458f73cabd0559a3e64b79ea594a26f",
+    "affine_sha256": "149476a73bfee3757096fb3535505c83e7e2a6871faeb7b6540762c305dbfb79",
+    "weight_crc32": 3404507952,
+    "affine_crc32": 547251246,
+    "verification": {
+      "status": "PASS",
+      "hash_files": 81,
+      "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+      "scan_bytes": 63296,
+      "affine_bytes": 3200,
+      "checkpoint_and_INT8_equal": true,
+      "current_and_INT64_equal": true,
+      "grouped_and_serial_history60": true,
+      "board_tested": false
+    }
+  },
+  "abstract": {
+    "slot": 2,
+    "model_directory": "models/abstract",
+    "trained_for_upfirst": false,
+    "preserved_existing": true,
+    "weight_sha256": "3ae7c7017334765fb7f583123f0df1c3305161c26f3b42e3bf8827445ff6be20",
+    "affine_sha256": "625a1c42ee597273113590604bb21a9400608ae1cfbe4b06eb079a7f0c3d9abc"
+  }
+}

@@ -15,7 +15,7 @@ data/mosaic/targets/train/*.png
 
 内容和目标按文件名一一对应，物理分辨率必须256×144。通用入口的content/targets路径可通过命令行改变。原立体派训练还需要`data/cubist/targets/val`、`data/perceptual/squeezenet1_1-b8a52dc0.pth`和`data/styles/cubist.jpg`；未提供时会明确报缺失，不静默联网或替换教师。
 
-`assets/images/source`里的两张图用于板端静图验证，`models/*/samples`是少量推理/校准样本；它们不代表完整原始训练集。
+`docs/images/preview` 保存项目主页的对比图，`models/*/samples` 保存用于推理或校准的少量样本。完整训练所需的数据见下方。
 
 ## 马赛克数组训练
 

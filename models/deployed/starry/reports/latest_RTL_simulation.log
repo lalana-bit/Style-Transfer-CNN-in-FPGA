@@ -1,0 +1,5 @@
+loaded weights time=264504000
+PASS frame=0 RGB=128 all15_IN_stats_exact=1
+PASS frame=1 RGB=128 all15_IN_stats_exact=1
+PASS latest upfirst RTL with trained weights, both frames, 400 dynamic IN updates
+D:\AAA\Ti60_fourstyle_retrain_20261114\latest_recheck\starry\tb.sv:66: $finish called at 1027442640 (1ps)

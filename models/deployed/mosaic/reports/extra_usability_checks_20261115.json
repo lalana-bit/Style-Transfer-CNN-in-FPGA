@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "concurrent_four_imports": true,
+  "idempotent_retries": true,
+  "interrupted_import_rollback": true,
+  "incompatible_structure_cases": [
+    {
+      "case": "stem_.CI(3)",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "enc1_.STRIDE(2)",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "decode_project_.UP(1)",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "decode_project_.K(3)",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "decode1_.H(V_DISP / 2)",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "head_.UP(0)",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "signed_branch",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "decoder_IN_pixels",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "scan_layout",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "active_macro",
+      "rejected_before_changes": true
+    },
+    {
+      "case": "Flash_offset",
+      "rejected_before_changes": true
+    }
+  ],
+  "image_entry_cases": [
+    {
+      "package": "INT8_IN15_ABSTRACT_UPFIRST_VERIFIED_20261115",
+      "input": "方向 输入.jpg",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_ABSTRACT_UPFIRST_VERIFIED_20261115",
+      "input": "灰度 输入.png",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_ABSTRACT_UPFIRST_VERIFIED_20261115",
+      "input": "透明 输入.png",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_CUBIST_UPFIRST_VERIFIED_20261115",
+      "input": "方向 输入.jpg",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_CUBIST_UPFIRST_VERIFIED_20261115",
+      "input": "灰度 输入.png",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_CUBIST_UPFIRST_VERIFIED_20261115",
+      "input": "透明 输入.png",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_MOSAIC_UPFIRST_VERIFIED_20261115",
+      "input": "方向 输入.jpg",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_MOSAIC_UPFIRST_VERIFIED_20261115",
+      "input": "灰度 输入.png",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_MOSAIC_UPFIRST_VERIFIED_20261115",
+      "input": "透明 输入.png",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_STARRY_UPFIRST_VERIFIED_20261115",
+      "input": "方向 输入.jpg",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_STARRY_UPFIRST_VERIFIED_20261115",
+      "input": "灰度 输入.png",
+      "passed": true
+    },
+    {
+      "package": "INT8_IN15_STARRY_UPFIRST_VERIFIED_20261115",
+      "input": "透明 输入.png",
+      "passed": true
+    }
+  ],
+  "board_tested": false
+}

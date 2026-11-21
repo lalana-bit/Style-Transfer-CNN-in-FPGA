@@ -7,7 +7,7 @@
   "setup_WNS_ns": 0.048,
   "hold_WNS_ns": 0.024,
   "configuration_generated": true,
-  "board_programmed": false,
+  "board_programmed": true,
   "stage": "camera_CNN_three_keys",
   "frame_cycles": 3683194,
   "frame_ms": 16.36975111111111,
@@ -15,7 +15,7 @@
   "integer_reference_passed": true,
   "continuous_two_frames_passed": true,
   "IN_sizes_verified": true,
-  "trained_weights_available": false,
+  "trained_weights_available": true,
   "bit_generated": true,
   "hex_generated": true,
   "ready_for_hardware": true,
@@ -26,8 +26,18 @@
   },
   "experimental_with_timing_violation": false,
   "firmware": "FLASH_CNN_CAMERA_START_0x00000000.hex",
-  "flash_written": false,
+  "flash_written": true,
   "timing_passed": true,
   "includes_static_images": false,
-  "includes_voice_control": false
+  "includes_voice_control": false,
+  "trained_style_slots": [
+    0,
+    1,
+    3
+  ],
+  "legacy_test_style_slots": [
+    2
+  ],
+  "flash_readback_verified": true,
+  "board_inference_visually_verified": false
 }

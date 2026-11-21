@@ -1,5 +1,10 @@
 {
+  "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_v1",
   "bytes": 63296,
+  "words": 15824,
+  "axi_beats": 3956,
+  "crc32": 2145068439,
+  "sha256": "fb9aeb3660ea9651e011a15adcaf371aaf1c58a1f01eb3ccae41b42cfa001638",
   "segments": [
     {
       "index": 0,
@@ -123,7 +128,7 @@
     },
     {
       "index": 15,
-      "name": "res1.standard.conv1.weights",
+      "name": "body.1.conv1.conv.weights",
       "width": 8,
       "units": 9216,
       "offset": 25908,
@@ -131,7 +136,7 @@
     },
     {
       "index": 16,
-      "name": "body.1.dw.conv.bias_multiplier_shift",
+      "name": "body.1.conv1.conv.bias_multiplier_shift",
       "width": 32,
       "units": 96,
       "offset": 35124,
@@ -139,7 +144,7 @@
     },
     {
       "index": 17,
-      "name": "body.1.dw.conv.qmin_qmax_relu6",
+      "name": "body.1.conv1.conv.qmin_qmax_relu6",
       "width": 32,
       "units": 3,
       "offset": 35508,
@@ -147,7 +152,7 @@
     },
     {
       "index": 18,
-      "name": "res1.standard.conv2.weights",
+      "name": "body.1.conv2.conv.weights",
       "width": 8,
       "units": 9216,
       "offset": 35520,
@@ -155,7 +160,7 @@
     },
     {
       "index": 19,
-      "name": "body.1.pw.conv.bias_multiplier_shift",
+      "name": "body.1.conv2.conv.bias_multiplier_shift",
       "width": 32,
       "units": 96,
       "offset": 44736,
@@ -163,7 +168,7 @@
     },
     {
       "index": 20,
-      "name": "body.1.pw.conv.qmin_qmax_relu6",
+      "name": "body.1.conv2.conv.qmin_qmax_relu6",
       "width": 32,
       "units": 3,
       "offset": 45120,
@@ -315,7 +320,7 @@
     },
     {
       "index": 39,
-      "name": "decode_standard3x3.conv.weights",
+      "name": "decode_pw.conv.weights",
       "width": 8,
       "units": 4608,
       "offset": 51444,
@@ -323,7 +328,7 @@
     },
     {
       "index": 40,
-      "name": "decode_standard3x3.conv.bias_multiplier_shift",
+      "name": "decode_pw.conv.bias_multiplier_shift",
       "width": 32,
       "units": 48,
       "offset": 56052,
@@ -331,7 +336,7 @@
     },
     {
       "index": 41,
-      "name": "decode_standard3x3.conv.qmin_qmax_relu6",
+      "name": "decode_pw.conv.qmin_qmax_relu6",
       "width": 32,
       "units": 3,
       "offset": 56244,
@@ -442,8 +447,106 @@
       "bytes": 128
     }
   ],
-  "trained_new_dense": false,
-  "purpose": "exact diagonal/centre embedding of old weights for arithmetic verification",
-  "architecture": "stdres2_sep3_project3_v1",
+  "numeric": [
+    {
+      "acc_bits": 19,
+      "shift_base": 39,
+      "shift_span": 1,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 20,
+      "shift_base": 38,
+      "shift_span": 2,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 21,
+      "shift_base": 39,
+      "shift_span": 2,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 18,
+      "shift_base": 36,
+      "shift_span": 3,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 19,
+      "shift_base": 39,
+      "shift_span": 3,
+      "signed_output": true
+    },
+    {
+      "acc_bits": 18,
+      "shift_base": 36,
+      "shift_span": 3,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 19,
+      "shift_base": 39,
+      "shift_span": 3,
+      "signed_output": true
+    },
+    {
+      "acc_bits": 17,
+      "shift_base": 36,
+      "shift_span": 3,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 19,
+      "shift_base": 39,
+      "shift_span": 2,
+      "signed_output": true
+    },
+    {
+      "acc_bits": 18,
+      "shift_base": 36,
+      "shift_span": 3,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 19,
+      "shift_base": 39,
+      "shift_span": 3,
+      "signed_output": true
+    },
+    {
+      "acc_bits": 18,
+      "shift_base": 36,
+      "shift_span": 3,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 19,
+      "shift_base": 39,
+      "shift_span": 2,
+      "signed_output": true
+    },
+    {
+      "acc_bits": 20,
+      "shift_base": 38,
+      "shift_span": 2,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 20,
+      "shift_base": 38,
+      "shift_span": 2,
+      "signed_output": false
+    },
+    {
+      "acc_bits": 19,
+      "shift_base": 38,
+      "shift_span": 1,
+      "signed_output": false
+    }
+  ],
+  "deployable": true,
+  "trained_new_dense": true,
+  "trained_for_upfirst": true,
   "runtime_IN_offset": 63296
 }

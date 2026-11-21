@@ -53,6 +53,17 @@ def main():
     for model in json.loads((ROOT/'config/models.json').read_text(encoding='utf-8')):
         for path, expected in model.get('checkpoints', {}).items():
             assert sha256(ROOT/path) == expected, path
+    deployed = ROOT/'config/deployed_models.json'
+    if deployed.exists():
+        for name, row in json.loads(deployed.read_text(encoding='utf-8')).items():
+            folder = ROOT/'weights/runtime'/name
+            assert sha256(folder/'weights.bin') == row['weight_sha256']
+            assert sha256(folder/'in.bin') == row['affine_sha256']
+            if row.get('trained_for_upfirst'):
+                assert row['verification']['status'] == 'PASS'
+                package = ROOT/row['model_directory']
+                for rel, expected in json.loads((package/'SHA256SUMS.json').read_text(encoding='utf-8')).items():
+                    assert sha256(package/rel) == expected, rel
     manifest_path = ROOT/'reports/integrity.json'
     if manifest_path.exists():
         manifest = json.loads(manifest_path.read_text(encoding='utf-8'))

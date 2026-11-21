@@ -1,0 +1,47 @@
+{
+  "style": "mosaic",
+  "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+  "baseline": {
+    "score": 9.29322428173489,
+    "mae_u8": 30.42230185121298,
+    "psnr_db": 15.736165618506844,
+    "images": 144,
+    "paired_score": 0.22163839638233185,
+    "selection_objective": "retained style-specific perceptual/texture objective"
+  },
+  "fp32_validation": {
+    "score": 5.107659048504299,
+    "mae_u8": 43.80710452795029,
+    "psnr_db": 12.948572585908838,
+    "images": 144,
+    "paired_score": 0.3254360258579254,
+    "selection_objective": "retained style-specific perceptual/texture objective"
+  },
+  "qat_validation": {
+    "score": 5.105792747603522,
+    "mae_u8": 43.8944124430418,
+    "psnr_db": 12.928878998597689,
+    "images": 144,
+    "paired_score": 0.3268091678619385,
+    "selection_objective": "retained style-specific perceptual/texture objective"
+  },
+  "test": {
+    "score": 5.02179049121009,
+    "mae_u8": 43.6919517070055,
+    "psnr_db": 12.99052377756518,
+    "images": 144,
+    "paired_score": 0.32493892312049866,
+    "selection_objective": "retained style-specific perceptual/texture objective"
+  },
+  "external_test": {
+    "score": 4.831181049346924,
+    "mae_u8": 44.204316213727,
+    "psnr_db": 13.0031515437418,
+    "images": 4,
+    "paired_score": 0.3263525366783142,
+    "selection_objective": "retained style-specific perceptual/texture objective"
+  },
+  "elapsed_s": 202.90599999999995,
+  "complete": true,
+  "board_validated": false
+}

@@ -1,0 +1,35 @@
+{
+  "train": {
+    "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\train_content.npy",
+    "target": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\train_target.npy",
+    "count": 2560,
+    "indices": null,
+    "content_sha256": "caaa6a2b8dd864f01a3073ac25850219eb4da391e0312e762e6e04e26b30e5a6",
+    "target_sha256": "f2a8c97620c091acf45a598058d9830097612808df15e3b5d88f01f8f549f5f1"
+  },
+  "val": {
+    "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\val_content.npy",
+    "target": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\val_target.npy",
+    "count": 144,
+    "indices": null,
+    "content_sha256": "ef555aef9be509866eb39666207af2b9a9321733c5a0daeaeb24d0e4dd6a8194",
+    "target_sha256": "9d05e44acf5e9e7a40733e2d4d1c61b403c78ef37865d438a90cfc783ec104db"
+  },
+  "test": {
+    "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\test_content.npy",
+    "target": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\test_target.npy",
+    "count": 144,
+    "indices": null,
+    "content_sha256": "688fbf826ebdf3945b4cba270ca43ca359615a9738f5955c315f95331e96b57d",
+    "target_sha256": "fff103b06a87cac9ef8168585179f16aa05b487c2bf1ac4db3593e2a706a686a"
+  },
+  "external_test": {
+    "content": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\external_test_content.npy",
+    "target": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data\\external_test_target.npy",
+    "count": 4,
+    "indices": null,
+    "content_sha256": "5e72ac0e2ee3ef6e9f5981c86d382fe95a67d694deba60718c0505577b0498c0",
+    "target_sha256": "e0d1c6167ba416c54cafede73f719dac0d080bb67255a727a5343e9247cad987"
+  },
+  "target_source": "Retained original PyTorch mosaic teacher targets"
+}

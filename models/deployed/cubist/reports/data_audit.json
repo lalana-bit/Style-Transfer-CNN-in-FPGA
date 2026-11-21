@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "train": 2560,
+    "val": 144,
+    "test": 144,
+    "external_test": 4
+  },
+  "cross_split_duplicate_images": {
+    "train__val": 0,
+    "test__train": 0,
+    "test__val": 0,
+    "external_test__train": 0,
+    "external_test__val": 0,
+    "external_test__test": 0
+  },
+  "all_splits_disjoint": true
+}

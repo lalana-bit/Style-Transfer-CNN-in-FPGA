@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "style": "mosaic",
+  "display_name": "马赛克",
+  "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+  "weight_bytes": 63296,
+  "weight_crc32": 3404507952,
+  "weight_sha256": "25c7a7090bed6d016c525fe64c09b3752458f73cabd0559a3e64b79ea594a26f",
+  "affine_bytes": 3200,
+  "affine_crc32": 547251246,
+  "affine_sha256": "149476a73bfee3757096fb3535505c83e7e2a6871faeb7b6540762c305dbfb79",
+  "relative_weight_offset": 524288,
+  "relative_affine_offset": 589824,
+  "absolute_weight_flash_address": 4718592,
+  "absolute_affine_flash_address": 4784128,
+  "project_version": "versions/latest",
+  "decoder_IN_pixels": [
+    9216,
+    36864
+  ]
+}

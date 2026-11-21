@@ -1,0 +1,19 @@
+{
+  "style": "cubist",
+  "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+  "latest_network_adapted": true,
+  "checkpoint_and_parameters_rechecked": true,
+  "latest_RTL_functional_simulation": true,
+  "board_tested": false,
+  "FPGA_setup_WNS_ns": -0.362,
+  "delivery_revision": "2026-11-15",
+  "weights_changed": false,
+  "complete_build_helper": true,
+  "cpu_firmware_built": true,
+  "FPGA_configuration_generated": true,
+  "embedded_CPU_RAM_verified": true,
+  "Flash_weight_and_IN_regions_verified": true,
+  "firmware_IN_math_cases": 4800,
+  "FPGA_hold_WNS_ns": 0.026,
+  "FPGA_timing_passed": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": 0,
+  "style": "starry",
+  "display_name": "星空",
+  "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+  "weight_bytes": 63296,
+  "weight_crc32": 2145068439,
+  "weight_sha256": "fb9aeb3660ea9651e011a15adcaf371aaf1c58a1f01eb3ccae41b42cfa001638",
+  "affine_bytes": 3200,
+  "affine_crc32": 2048401749,
+  "affine_sha256": "9bba7f4e20afb77b04f142f5bca42a277142152cab550197ef29c8053059c4e7",
+  "relative_weight_offset": 0,
+  "relative_affine_offset": 131072,
+  "absolute_weight_flash_address": 4194304,
+  "absolute_affine_flash_address": 4325376,
+  "project_version": "versions/latest",
+  "decoder_IN_pixels": [
+    9216,
+    36864
+  ]
+}
