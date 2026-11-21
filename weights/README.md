@@ -1,10 +1,18 @@
+<!--
+ * @Author: koharu 3262447331@qq.com
+ * @Date: 2026-11-21 19:39:43
+ * @LastEditors: koharu 3262447331@qq.com
+ * @LastEditTime: 2026-11-21 22:36:05
+ * @FilePath: \Ti60_FourStyle_IN15\weights\README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2026 by ${git_name_email}, All Rights Reserved. 
+-->
 # 权重文件说明
 
 `runtime/<风格>/weights.bin`与`in.bin`是当前硬件实际加载的数据，每套分别为63296B、3200B；地址清单见`style_banks.json`，Flash布局由`hardware/tools/combine_flash.py`检查。四个DDR槽间距为128KiB。
 
 `starry`、`cubist`、`abstract`、`mosaic`根风格目录保存原训练网络的导出资料，原扫描包为24960B，不能直接替换当前63296B运行包。`tools/model_workflow.py`和`tools/export_in.py`处理这些原训练资料；它们不是当前修改后RTL的最终部署转换器。训练权重保留在`models`，具体网络差异见根README。
-
-当前星空、立体派、马赛克来自models/deployed的2026-11-15新结构重训包；抽象派保留原兼容包，尚无本轮新模型。
 
 ## 格式与更新入口
 

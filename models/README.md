@@ -1,6 +1,6 @@
-> 当前硬件重训交付包：星空、立体派、马赛克位于[deployed](deployed/README.md)，与当前硬件结构一致。以下各风格目录保留原训练资料；抽象派本轮未更新。
+> 当前硬件重训交付包：星空、立体派、马赛克位于[deployed](deployed/README.md)，与当前硬件结构一致。
 
-> 本目录保留原训练资料，不代表可直接将原训练权重用于当前FPGA网络。工程入口以根README为准；最新网络定义见`common/model_codec16_std_two_upfirst`。
+> 最新网络定义见`common/model_codec16_std_two_upfirst`。
 
 # 四风格模型与训练边界
 
@@ -40,6 +40,5 @@ python models/train.py --style cubist --checkpoint models/cubist/checkpoints/QAT
 
 实际入口为`models/training/abstract/run.py`，详见[抽象派训练说明](training/abstract/README.md)。补齐Magenta 0.65教师目标、FP32 2400步→QAT 800步、最终阶段初始化和INT8导出；教师四文件约94MB，已压缩归档到工程外的project_backups/optional_training_assets，训练时按需解压或显式下载；交付FP32/QAT与当前抽象派检查点哈希一致。数据和VGG仍需外部准备。训练使用当前帧IN，未训练板端的历史帧统计更新过程。
 
-这里“完整”指最终阶段的代码和教师入口，不表示从随机初始化恢复全部历史训练，也不表示现已重新完成训练。当前部署权重和Flash保持不变。
 
 

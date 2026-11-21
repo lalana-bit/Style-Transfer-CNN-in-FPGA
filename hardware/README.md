@@ -192,5 +192,3 @@ XLR/RAM/DSP是Ti60资源单位，不可按数字直接等价为Xilinx LUT/BRAM/D
 - [跨平台移植，含Xilinx适配与验收](../docs/porting.md)
 - [JTAG BIT](outflow/ti60f225_oob.bit)
 - [完整Flash HEX，从地址0写入](../firmware/FLASH_CNN_CAMERA_START_0x00000000.hex)
-
-本次说明更新不修改RTL、软核、权重、BIT或HEX。
