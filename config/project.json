@@ -1,0 +1,16 @@
+{
+  "project": "hardware/ti60f225_oob.xml",
+  "firmware": "firmware/FLASH_CNN_CAMERA_START_0x00000000.hex",
+  "resources": {
+    "XLR": 59684,
+    "RAM": 245,
+    "DSP": 119
+  },
+  "setup_WNS_ns": 0.048,
+  "hold_WNS_ns": 0.024,
+  "experimental": true,
+  "bit_sha256": "97f8f5331d1a973344a8afe5c5bb18af026f2c07dd72a4cedf685956158d3eac",
+  "hex_sha256": "2b83afbe609c96f89693178f1a377de8a08ddc2ed58e7a344e4655651b75fccd",
+  "includes_static_images": false,
+  "includes_voice_control": false
+}

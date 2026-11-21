@@ -1,0 +1,107 @@
+{
+  "architecture": "stem8_enc16_32_stdres2_sep3_upfirst32_16_8_3_in15_v1",
+  "input": [
+    1,
+    3,
+    144,
+    256
+  ],
+  "output": [
+    1,
+    3,
+    144,
+    256
+  ],
+  "IN_sites": [
+    "stem",
+    "enc1",
+    "enc2",
+    "body.0.conv1",
+    "body.0.conv2",
+    "body.1.conv1",
+    "body.1.conv2",
+    "body.2.dw",
+    "body.2.pw",
+    "body.3.dw",
+    "body.3.pw",
+    "body.4.dw",
+    "body.4.pw",
+    "decode_pw",
+    "decode1"
+  ],
+  "convolutions": 16,
+  "decoder_trace": {
+    "enc2": {
+      "input": [
+        1,
+        16,
+        72,
+        128
+      ],
+      "output": [
+        1,
+        32,
+        36,
+        64
+      ]
+    },
+    "body.4": {
+      "input": [
+        1,
+        32,
+        36,
+        64
+      ],
+      "output": [
+        1,
+        32,
+        36,
+        64
+      ]
+    },
+    "decode_pw": {
+      "input": [
+        1,
+        32,
+        72,
+        128
+      ],
+      "output": [
+        1,
+        16,
+        72,
+        128
+      ]
+    },
+    "decode1": {
+      "input": [
+        1,
+        16,
+        144,
+        256
+      ],
+      "output": [
+        1,
+        8,
+        144,
+        256
+      ]
+    },
+    "out": {
+      "input": [
+        1,
+        8,
+        144,
+        256
+      ],
+      "output": [
+        1,
+        3,
+        144,
+        256
+      ]
+    }
+  },
+  "trained_weights_available": false,
+  "requires_retraining": true
+}

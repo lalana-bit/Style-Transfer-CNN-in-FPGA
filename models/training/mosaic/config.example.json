@@ -1,0 +1,31 @@
+{
+  "paths": {
+    "work_dir": "../../../build/training/mosaic",
+    "data_dir": "../../../data/mosaic/arrays",
+    "base_data_dir": "../../../data/base_arrays",
+    "coco_dir": "../../../data/coco/train2014",
+    "vgg_weights": "../../../data/perceptual/vgg16-397923af.pth",
+    "teacher_weights": "../../mosaic/teacher/teacher_mosaic.pth",
+    "style_image": "../../mosaic/teacher/mosaic.jpg",
+    "initial_checkpoint": "../../mosaic/checkpoints/texture_v2_init.pt"
+  },
+  "training": {
+    "run": "mosaic_texture_v2",
+    "steps": 3000,
+    "qat_steps": 600,
+    "strength": 1.0
+  },
+  "loss_weights": {
+    "content": 0.4,
+    "gram": 4.5,
+    "coarse_gram": 4,
+    "patch": 3,
+    "palette": 12,
+    "chroma": 8,
+    "hf_excess": 65,
+    "alias_excess": 25,
+    "texture": 0.5,
+    "tv": 0.15,
+    "layout": 0.15
+  }
+}

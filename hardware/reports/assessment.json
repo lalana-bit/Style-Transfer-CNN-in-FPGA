@@ -1,0 +1,33 @@
+{
+  "resources": {
+    "XLR": 59684,
+    "RAM": 245,
+    "DSP": 119
+  },
+  "setup_WNS_ns": 0.048,
+  "hold_WNS_ns": 0.024,
+  "configuration_generated": true,
+  "board_programmed": false,
+  "stage": "camera_CNN_three_keys",
+  "frame_cycles": 3683194,
+  "frame_ms": 16.36975111111111,
+  "frame_deadline_cycles": 3744000,
+  "integer_reference_passed": true,
+  "continuous_two_frames_passed": true,
+  "IN_sizes_verified": true,
+  "trained_weights_available": false,
+  "bit_generated": true,
+  "hex_generated": true,
+  "ready_for_hardware": true,
+  "free_resources": {
+    "XLR": 1116,
+    "RAM": 11,
+    "DSP": 41
+  },
+  "experimental_with_timing_violation": false,
+  "firmware": "FLASH_CNN_CAMERA_START_0x00000000.hex",
+  "flash_written": false,
+  "timing_passed": true,
+  "includes_static_images": false,
+  "includes_voice_control": false
+}

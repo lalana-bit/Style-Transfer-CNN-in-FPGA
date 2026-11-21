@@ -1,0 +1,3 @@
+-r requirements.txt
+# 仅models/original_training/cubist/train.py的SqueezeNet感知损失需要。
+torchvision>=0.26

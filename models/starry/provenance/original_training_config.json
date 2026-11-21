@@ -1,0 +1,33 @@
+{
+  "architecture": "stem8_enc16_32_sep5_stddec16_8_3_in15_v1",
+  "parameters": 15619,
+  "convolutions": 16,
+  "IN_sites": 15,
+  "output_IN": false,
+  "input_width_height": [
+    256,
+    144
+  ],
+  "epochs": 32,
+  "steps_per_epoch": 80,
+  "batch": 8,
+  "lr": 0.001,
+  "initialization": "fresh Kaiming, no Candy or legacy student weights",
+  "style_source": "C:\\Users\\90582\\Documents\\Codex\\2026-09-19\\candy-fpga-500kb-int8-1-1\\work\\third_party\\igreat_fast_style_transfer\\images\\starry-night.jpg",
+  "style_sha256": "0592ab0f7b51b3ce72608a95e53880bd93971e5b48f93a0ce8dfd3cbccf3d098",
+  "style_reference_widths": [
+    256,
+    384
+  ],
+  "IN": "per image/channel, affine=True, eps1e-5, track_running_stats=False",
+  "brightness_sampling": [
+    0.35,
+    0.4,
+    0.25
+  ],
+  "scene_sampling": "six groups uniform",
+  "pixel_teacher_reconstruction": false,
+  "inference_postprocessing": false,
+  "test_used_for_selection": false,
+  "hardware_IN_delay_simulated": false
+}

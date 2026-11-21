@@ -1,0 +1,42 @@
+{
+  "validation_images": 222,
+  "target": "same native-scale large-facet cubist teacher for every candidate",
+  "criterion": "RGB L1 + .5*half-resolution edge L1 + .25*quarter-resolution edge L1",
+  "candidates": [
+    {
+      "rgb": 0.11779343034770037,
+      "large_edge_2": 0.06603217178636843,
+      "large_edge_4": 0.07965769585188445,
+      "score": 0.1707239402038557,
+      "checkpoint": "large_brush_v4/best.pt",
+      "phase_step": 2000
+    },
+    {
+      "rgb": 0.06652137811656471,
+      "large_edge_2": 0.03622823205214363,
+      "large_edge_4": 0.042656477775659646,
+      "score": 0.09529961358655142,
+      "checkpoint": "direct_teacher_v5/best.pt",
+      "phase_step": 20000
+    },
+    {
+      "rgb": 0.07312457209771818,
+      "large_edge_2": 0.041582294412561366,
+      "large_edge_4": 0.04765391913620201,
+      "score": 0.10582919908804936,
+      "checkpoint": "conditional_teacher_v6/latest.pt",
+      "phase_step": 6000
+    },
+    {
+      "rgb": 0.06661487337168273,
+      "large_edge_2": 0.036113465188054354,
+      "large_edge_4": 0.0425189912050694,
+      "score": 0.09530135376697726,
+      "checkpoint": "spatial_hint_v7/latest.pt",
+      "phase_step": 20000
+    }
+  ],
+  "selected": "direct_teacher_v5/best.pt",
+  "style_target_reached": false,
+  "style_note": "Selected by fidelity and reviewed previews; the student still lacks some of the teacher's contiguous facets. Quantization does not resolve this remaining style gap."
+}

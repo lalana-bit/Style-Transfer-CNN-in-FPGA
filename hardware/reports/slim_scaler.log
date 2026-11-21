@@ -1,0 +1,2 @@
+PASS scaler full_frames=2 864x486_to_256x144 cycle_equivalence_gap9=1 cycles=6406824
+scaler_tb.v:47: $finish called at 25627326000 (1ps)

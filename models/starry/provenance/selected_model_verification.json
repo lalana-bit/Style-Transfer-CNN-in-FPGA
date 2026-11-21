@@ -1,0 +1,179 @@
+{
+  "selection": "explicit human selection of displayed gallery, not latest/best automatic checkpoint",
+  "epoch": 12,
+  "checkpoint_source": "C:\\Users\\90582\\Documents\\Codex\\2026-09-19\\candy-fpga-500kb-int8-1-1\\work\\starry_in15_20261028\\run\\epoch_012.pth",
+  "displayed_gallery_source": "C:\\Users\\90582\\Documents\\Codex\\2026-09-19\\candy-fpga-500kb-int8-1-1\\work\\starry_in15_20261028\\run\\comparison_epoch_012.png",
+  "identification_evidence": "Conversation tool displayed run/comparison_epoch_012.png immediately before the progress commentary saying training had reached epoch20. That commentary is training progress, not gallery/checkpoint epoch.",
+  "source_sha256": "bf8593ef2b02e0b1b671a36db1f9faef3d27b62d0433e5edf4bdf41c163f6baf",
+  "delivered_sha256": "bf8593ef2b02e0b1b671a36db1f9faef3d27b62d0433e5edf4bdf41c163f6baf",
+  "checkpoint_byte_identical": true,
+  "gallery_sha256": "39bde6895933c67bfec0f46cea393dbb64b5bee7fc998a97a3f61134070120b4",
+  "gallery_reproduction": [
+    {
+      "validation_index": 0,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 1,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 2,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 3,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 24,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 25,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 26,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 27,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 48,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 49,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 50,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 51,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 72,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 73,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 74,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 75,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 82,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 83,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 84,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 85,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 89,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 90,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 91,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    },
+    {
+      "validation_index": 92,
+      "max_RGB_code_error": 0,
+      "mean_RGB_code_error": 0.0,
+      "different_codes": 0
+    }
+  ],
+  "parameters": 15619,
+  "FP32_parameter_bytes": 62476,
+  "convolutions": 16,
+  "IN_layers": 15,
+  "output_IN": false,
+  "input_output_width_height": [
+    256,
+    144
+  ],
+  "FP32": true,
+  "INT8": false,
+  "optimization_steps": 960,
+  "photo_sample_draws": 7680,
+  "inference_postprocessing": false,
+  "later_curved_or_clarity_weights_used": false,
+  "torchscript_roundtrip_max_error": 0.0,
+  "CPU_CUDA_max_error": 2.771615982055664e-06,
+  "board_tested": false,
+  "FPS_measured": false,
+  "standalone_infer_checked": true,
+  "standalone_CPU_vs_original_max_RGB_code_error": 1,
+  "screenshot_thumbnail_match": "epoch12 ranked closest among all9 saved checkpoint galleries, consistent with conversation tool history"
+}

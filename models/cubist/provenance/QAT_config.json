@@ -1,0 +1,16 @@
+{
+  "architecture": "stem8_enc16_32_sep5_stddec16_8_3_in15_v1",
+  "fp32_checkpoint": "outputs/cubist_in15/direct_teacher_v5/best.pt",
+  "fp32_sha256": "33e2071eb0ddaa7ac64be7993630c362bc9edb3ac452ec23c664f580807d22c0",
+  "canonicalization_max_abs_error": 0.0006167292594909668,
+  "weight_quantization": "per-output-channel symmetric INT8 [-127,127]",
+  "activation_storage": "INT8; nonnegative 0..127; residual pointwise branch -127..127",
+  "activation_amax": 6.0,
+  "input_output_amax": 1.0,
+  "dynamic_IN": "all 15 sites; acc arithmetic shift8; integer Q8 mean/Q16 variance; integer sqrt; INT20 bias; INT31 multiplier; shift32..47; RNE",
+  "note": "QAT norm numeric wrappers must be restored with quant_in15.load_model; no Flash or board operations",
+  "training_images": 4533,
+  "validation_images": 222,
+  "qat_steps": 6000,
+  "deployable": false
+}

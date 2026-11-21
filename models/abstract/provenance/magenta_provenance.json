@@ -1,0 +1,26 @@
+{
+  "model_source": "https://github.com/deepeshdm/Neural-Style-Transfer/tree/main/model",
+  "user_model_link": "https://www.kaggle.com/models/google/arbitrary-image-stylization-v1/tensorFlow1/256/2",
+  "repository_model_handle": "https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2",
+  "model_files_sha256": {
+    "saved_model.pb": "9c061b2fe4c9277d35adea3a2a620522e2d0b9685109f0e06fe8454b0be70a62",
+    "variables/variables.data-00000-of-00002": "f54c88582e3760b218ea6f33160b460dde1695de6dd9e8219a6efcb7775a23ba",
+    "variables/variables.data-00001-of-00002": "a8970e355138697029fe71aca1cefe5f3ded143330ba1a9cf0b64d939238e3e3",
+    "variables/variables.index": "ac7a95d72e0ebab3ff54ad58951ed00d3d0ba8b9e785c7b04af10f99caf1b150"
+  },
+  "style_reference_is_art1_output": true,
+  "original_example_style_painting_not_identified": true,
+  "tensorflow": "2.16.1",
+  "CPU_threads": 4,
+  "preview_seconds": [
+    1.5228221416473389,
+    0.20035147666931152,
+    0.19800376892089844,
+    0.19771289825439453,
+    0.18929314613342285,
+    0.19523835182189941,
+    0.19535613059997559,
+    0.19380617141723633
+  ],
+  "elapsed_s": 4.176049709320068
+}

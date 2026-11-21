@@ -1,0 +1,53 @@
+{
+  "architecture": "stem8_enc16_32_sep5_stddec16_8_3_v1",
+  "input_hw": [
+    144,
+    256
+  ],
+  "encoder_channels": [
+    8,
+    16,
+    32
+  ],
+  "encoder_strides": [
+    1,
+    2,
+    2
+  ],
+  "residual_blocks": 5,
+  "residual_channels": 32,
+  "decoder": "PW32->16 at64x36, NN2+dense3x3 16->8, NN2+dense3x3 8->3",
+  "bytes": 24960,
+  "segments": 55,
+  "trained_weights_available": false,
+  "padding": "replicate",
+  "input_gap": 9,
+  "clock_hz": 225000000,
+  "bias_bits": 20,
+  "multiplier_bits": 31,
+  "accumulator_bits": 24,
+  "shift_range": [
+    32,
+    47
+  ],
+  "decoder_channels": [
+    16,
+    8,
+    3
+  ],
+  "decoder_upsample_mode": "nearest",
+  "decoder_parallelism": {
+    "project": {
+      "GI": 2,
+      "PE": 2
+    },
+    "decode1": {
+      "GI": 2,
+      "PE": 4
+    },
+    "out": {
+      "GI": 2,
+      "PE": 3
+    }
+  }
+}

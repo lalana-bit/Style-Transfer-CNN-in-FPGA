@@ -1,0 +1,10 @@
+{
+  "assets/art1.png": "7a22668f27537e15b0c4974f7ef168440b688d04a2a977ad478255732696f679",
+  "assets/magenta/saved_model.pb": "9c061b2fe4c9277d35adea3a2a620522e2d0b9685109f0e06fe8454b0be70a62",
+  "assets/magenta/variables/variables.data-00000-of-00002": "f54c88582e3760b218ea6f33160b460dde1695de6dd9e8219a6efcb7775a23ba",
+  "assets/magenta/variables/variables.data-00001-of-00002": "a8970e355138697029fe71aca1cefe5f3ded143330ba1a9cf0b64d939238e3e3",
+  "assets/magenta/variables/variables.index": "ac7a95d72e0ebab3ff54ad58951ed00d3d0ba8b9e785c7b04af10f99caf1b150",
+  "checkpoints/blue_glass_init_fp32.pt": "30cc4b19dd8f6160cca05255a51bd7f2b4384d305b240330d611f8d2a8457884",
+  "checkpoints/delivered_fp32.pt": "bd4a08ff8252887fa09e7831bbc111719df2e0d658d69fc1e1542a5c3f798329",
+  "checkpoints/delivered_qat.pt": "89748d1a3520fed1396d89de2f97adf8da9897136a6ce2961ae6d3e6deed0ee1"
+}

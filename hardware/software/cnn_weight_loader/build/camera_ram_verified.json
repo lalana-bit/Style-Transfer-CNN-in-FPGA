@@ -1,0 +1,24 @@
+{
+  "firmware_bytes": 11106,
+  "ram_bytes": 16384,
+  "firmware_sha256": "3cbb2aa9fcaefc59e5be027765c9cafdcfc99763a7f17d18d434be72171ad372",
+  "cpu_ram": [
+    {
+      "path": "ip/ip/cnn_boot_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "sha256": "b8735625296943dfe66442d9262e391f0393d420ff0bb9be750c21ad8a94e31f"
+    },
+    {
+      "path": "ip/ip/cnn_boot_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "sha256": "3c0850961762be21010d1e1e75c59f81623fa530a4dfeeb6b5cbf72c5f5a7ab5"
+    },
+    {
+      "path": "ip/ip/cnn_boot_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "sha256": "dffc314f9bd39c685bac182c2214c84db3b2c3abbdc1dc95720451410b87700d"
+    },
+    {
+      "path": "ip/ip/cnn_boot_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "sha256": "d036fca6eb83cf63bc011e25a296ab8aef493d9a744b002038a3d8164c9055de"
+    }
+  ],
+  "hardware_programmed": false
+}

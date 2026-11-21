@@ -1,0 +1,21 @@
+[
+  {
+    "test": "real",
+    "passed": true,
+    "pixels": 73728,
+    "sha256": "f8654f7febb4dd7be098f95b27dabaa69787797c27a4a67beac23430011d3a4c",
+    "cycles": [
+      3683194,
+      3683194
+    ]
+  },
+  {
+    "test": "dense_real",
+    "passed": true,
+    "pixels": 36864,
+    "sha256": "d80d6f0cfb0d8e14778d19cd3cb60c916d120d20395c5ed0cd90b39eac3085a3",
+    "cycles": [
+      3683194
+    ]
+  }
+]

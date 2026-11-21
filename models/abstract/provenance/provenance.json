@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/deepeshdm/Neural-Style-Transfer",
+  "style_reference_url": "https://raw.githubusercontent.com/deepeshdm/Neural-Style-Transfer/main/Imgs/art1.png",
+  "reference_kind": "published stylized output, NOT original style painting",
+  "reference_sha256": "7a22668f27537e15b0c4974f7ef168440b688d04a2a977ad478255732696f679",
+  "exact_original_painting_known": false,
+  "original_Magenta_model_retrained": false,
+  "training": "fixed Codec16IN perceptual texture/palette transfer",
+  "original_engineering_files_checked": 1337,
+  "original_engineering_changed": [],
+  "previous_weights_package_sha256": "39f1f547a7078a4d1dd713dbd8e7c17feb2163e5c6e287b81d1bd135c6f10ccb",
+  "actual_Kaggle_model_downloaded_and_file_verified": true,
+  "Magenta_weights_unchanged": true,
+  "final_teacher": "original repository/Kaggle Magenta pretrained weights",
+  "final_teacher_latent_strength": 0.65,
+  "style_reference_remains_published_output": true,
+  "unique_content_training_images_before_finetuning": 2560,
+  "finetuning_reuses_1024_training_images": true,
+  "portrait_supervised_in_initialization": true
+}

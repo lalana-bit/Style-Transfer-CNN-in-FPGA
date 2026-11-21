@@ -1,0 +1,24 @@
+{
+  "source": "junrushao/fast-neural-style.tf/models/cubist.model",
+  "source_sha256": "d17d057b18d9693b304128ea4b7d26df33d17ff0ecc2731ea5ef748948644e15",
+  "repair": "Zero 15 entirely NaN first-convolution filters; original published model produces all-NaN outputs with modern TensorFlow CPU. Repaired teacher is NOT claimed numerically equivalent to original model.",
+  "channels": {
+    "network/Gen/conv1/weights": [
+      0,
+      2,
+      3,
+      4,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      23,
+      24,
+      27,
+      28,
+      29
+    ]
+  }
+}

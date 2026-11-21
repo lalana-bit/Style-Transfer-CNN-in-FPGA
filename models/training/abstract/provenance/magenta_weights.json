@@ -1,0 +1,31 @@
+{
+  "user_link": "https://www.kaggle.com/models/google/arbitrary-image-stylization-v1/tensorFlow1/256/2",
+  "kaggle_archive_sha256": "a2509e326d792cab069aceb670ad6fd63fb10218f1ad08bf2f4355d1327bb5b3",
+  "files": [
+    {
+      "file": "saved_model.pb",
+      "bytes": 1653360,
+      "sha256": "9c061b2fe4c9277d35adea3a2a620522e2d0b9685109f0e06fe8454b0be70a62",
+      "identical_to_GitHub": true
+    },
+    {
+      "file": "variables/variables.data-00000-of-00002",
+      "bytes": 92403480,
+      "sha256": "f54c88582e3760b218ea6f33160b460dde1695de6dd9e8219a6efcb7775a23ba",
+      "identical_to_GitHub": true
+    },
+    {
+      "file": "variables/variables.data-00001-of-00002",
+      "bytes": 69318,
+      "sha256": "a8970e355138697029fe71aca1cefe5f3ded143330ba1a9cf0b64d939238e3e3",
+      "identical_to_GitHub": true
+    },
+    {
+      "file": "variables/variables.index",
+      "bytes": 9678,
+      "sha256": "ac7a95d72e0ebab3ff54ad58951ed00d3d0ba8b9e785c7b04af10f99caf1b150",
+      "identical_to_GitHub": true
+    }
+  ],
+  "all_model_files_identical": true
+}

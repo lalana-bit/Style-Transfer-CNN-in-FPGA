@@ -1,0 +1,20 @@
+
+****** xsim v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Nov 13 19:41:36 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/core/xsim_script.tcl
+# xsim {core} -autoloadwcfg -runall -onfinish quit -onerror quit
+Time resolution is 1 ps
+run -all
+FRAME cycles=3683194
+FRAME cycles=3683194
+PASS pixels=73728 second_skip_peak=2224
+$finish called at time : 33541267760 ps : File "E:/sth_interesting/elinx_project/Ti60_FourStyle_IN15/build/ram_optimization/paired_tails/real/real/tb.v" Line 37
+exit 0
+INFO: xsimkernel Simulation Memory Usage: 35032 KB (Peak: 35032 KB), Simulation CPU Usage: 609358 ms
+INFO: [Common 17-206] Exiting xsim at Fri Nov 13 19:51:50 2026...

@@ -1,0 +1,33 @@
+# 本机工具配置和缓存
+config/toolchains.local.json
+__pycache__/
+*.py[cod]
+/.venv/
+/build/
+/output/
+
+# 可重新生成的Efinity工作目录和中间网表
+/hardware/build/
+/hardware/work_syn/
+/hardware/work_pnr/
+/hardware/outflow/*
+!/hardware/outflow/ti60f225_oob.bit
+!/hardware/outflow/ti60f225_oob.hex
+!/hardware/outflow/*.rpt
+!/hardware/outflow/*.csv
+
+# 保留软核启动初始化所需BIN/HEX、ELF及链接校验文件
+/hardware/software/cnn_weight_loader/build/*
+!/hardware/software/cnn_weight_loader/build/cnn_weight_loader.bin
+!/hardware/software/cnn_weight_loader/build/cnn_weight_loader.hex
+!/hardware/software/cnn_weight_loader/build/cnn_weight_loader.elf
+!/hardware/software/cnn_weight_loader/build/cnn_weight_loader.map
+!/hardware/software/cnn_weight_loader/build/camera_ram_verified.json
+
+# 仿真临时产物
+*.vcd
+*.fst
+*.vvp
+*.wdb
+.Xil/
+xsim.dir/

@@ -1,0 +1,23 @@
+{
+  "steps": 3000,
+  "qat_steps": 600,
+  "run": "run04_texture_v2",
+  "init": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\run03_style_first\\best_fp32.pt",
+  "strength": 1.0,
+  "architecture": "stem8_enc16_32_sep5_stddec16_8_3_in15_v1",
+  "parameters": 15619,
+  "IN_sites": 15,
+  "IN_channels": 400,
+  "train_images": 2560,
+  "val_images": 144,
+  "batch": 6,
+  "initial": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\run03_style_first\\best_fp32.pt",
+  "initial_sha256": "260564460852df0b1791058af9eaeab404120d050a7a5851f5965df8c5d4c0ed",
+  "loss": "normalized VGG content+Mosaic teacher Gram+pixel+texture+palette+coarse layout",
+  "hardware_delay_trained": false,
+  "source_engineering_modified": false,
+  "seed": 20261031,
+  "objective_source": "def objective(v,strength=1.):\n return .4*v['content']+4.5*strength*v['gram']+4*v['coarse_gram']+3*v['patch']+12*v['palette']+8*v['chroma']+65*v['hf_excess']+25*v['alias_excess']+.5*v['texture']+.15*v['tv']+.15*v['layout']\n",
+  "loss_terms_source": "def terms(y,x,t,net,fx,ft):\n if not hasattr(net,'mosaic_targets'):\n  im=Image.open(ROOT/'reference/mosaic.jpg').convert('RGB')\n  a=np.array(im.resize((256,213),Image.Resampling.LANCZOS)).copy()\n  with torch.no_grad():\n   f=net(torch.from_numpy(a).permute(2,0,1)[None].cuda().float()/255)\n   net.mosaic_targets=[T.gram(z).detach() for z in f]\n   net.patch_bank=patches(f[1],768).detach()\n fy=net(y);coarse_features=net(F.avg_pool2d(y,2))\n weights=[.15,.65,1.,1.]\n gram=sum(w*F.mse_loss(T.gram(f),z.expand(len(y),-1,-1))/z.square().mean().clamp_min(1e-8) for w,f,z in zip(weights,fy,net.mosaic_targets))/sum(weights)\n coarse=sum(F.mse_loss(T.gram(f),z.expand(len(y),-1,-1))/z.square().mean().clamp_min(1e-8) for f,z in zip(coarse_features,net.mosaic_targets))/4\n p=patches(fy[1],256);matches=p@net.patch_bank.transpose(1,2)\n patch=(1-matches.max(-1).values).mean()\n content=sum(F.mse_loss(fy[i],fx[i])/fx[i].square().mean().clamp_min(1e-5) for i in [1,2])/2\n palette=F.mse_loss(y.mean((2,3)),t.mean((2,3)))+F.mse_loss(y.std((2,3)),t.std((2,3)))\n yc=y-y.mean(1,keepdim=True);tc=t-t.mean(1,keepdim=True)\n chroma=F.mse_loss(yc,tc)+4*(yc.square().mean()-tc.square().mean()).abs()\n # Penalize excess tiny-line energy, rather than suppressing all texture.\n # Teacher provides the natural stained-glass texture energy budget per scene.\n hf=(y-blur(y)).square().mean((1,2,3));ht=(t-blur(t)).square().mean((1,2,3))\n excess=F.relu(hf-.9*ht).mean()\n # Alternating pixel patterns are the clearest fine-grid artifact of the\n # preceding run. Strong, broad glass boundaries survive this residual loss.\n alias=(y-blur(y,5)).square().mean((1,2,3));at=(t-blur(t,5)).square().mean((1,2,3))\n alias_excess=F.relu(alias-1.05*at).mean()\n ey,et=T.edges(y),T.edges(t)\n texture=sum(F.l1_loss(F.avg_pool2d(a.abs(),7,1),F.avg_pool2d(b.abs(),7,1)) for a,b in zip(ey,et))\n tv=sum(a.abs().mean() for a in ey)\n layout=F.l1_loss(F.avg_pool2d(y.mean(1,keepdim=True),8),F.avg_pool2d(x.mean(1,keepdim=True),8))\n return dict(content=content,gram=gram,coarse_gram=coarse,patch=patch,palette=palette,chroma=chroma,hf_excess=excess,alias_excess=alias_excess,texture=texture,tv=tv,layout=layout)\n",
+  "entry_script": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\train_texture_v2.py"
+}

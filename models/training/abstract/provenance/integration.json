@@ -1,0 +1,44 @@
+{
+  "source_package": "C:\\Users\\lalana\\Desktop\\style_model_train\\BLUE_GLASS_TRAINING_SOURCE_20261102\\blue_glass_training_20261102",
+  "source_file_count": 49,
+  "source_hashes_valid": true,
+  "shared_code_byte_identical": true,
+  "delivered_FP32_QAT_byte_identical": true,
+  "source_training_logic_unchanged": true,
+  "initialization_sha256": "30cc4b19dd8f6160cca05255a51bd7f2b4384d305b240330d611f8d2a8457884",
+  "adapted_files": [
+    "run.py shared imports",
+    "configs/train.json project-relative paths",
+    "run_local.ps1 portable defaults"
+  ],
+  "deployment_bytes_unchanged": true,
+  "firmware_unchanged": true,
+  "training_executed": false,
+  "teacher_targets_generated": false,
+  "complete_training_reproduction": false,
+  "board_tested": false,
+  "teacher_bytes": 0,
+  "integration_checks": {
+    "training_export_validation_imports": true,
+    "project_relative_paths": true,
+    "strict_QAT_checkpoint_load": true,
+    "convolution_count": 16,
+    "IN_site_count": 15,
+    "trainable_parameters": 15619,
+    "FP32_forward_shape": [
+      1,
+      3,
+      144,
+      256
+    ],
+    "forward_finite": true,
+    "verification_device": "cpu",
+    "verification_torch": "2.14.1+cpu",
+    "full_training_or_export_run": false
+  },
+  "teacher_source_bytes": 94135836,
+  "teacher_storage": "external_on_demand",
+  "teacher_archive": "E:\\sth_interesting\\elinx_project\\project_backups\\optional_training_assets\\Magenta_TF1_256_v2.zip",
+  "teacher_archive_sha256": "877b2e689c90495aeb1946ddc595477b3bcfbb7dd087f784a3d86a785d6dc623",
+  "teacher_archive_verified": true
+}

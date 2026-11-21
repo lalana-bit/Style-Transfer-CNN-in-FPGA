@@ -1,0 +1,76 @@
+[
+  {
+    "id": 0,
+    "style": "starry",
+    "display_name": "星空",
+    "model_directory": "models/starry",
+    "weight_directory": "weights/starry",
+    "checkpoints": {
+      "models/starry/checkpoints/FP32.pth": "bf8593ef2b02e0b1b671a36db1f9faef3d27b62d0433e5edf4bdf41c163f6baf",
+      "models/starry/checkpoints/FP32_torchscript.pt": "ddf3ff697a536aa026cc2563ebc690370b58d89d624cae21e789902dca665459",
+      "models/starry/checkpoints/PTQ_calibrated.pth": "6777b65fc03c1bfe1344ce8465d6fce6cf8a82ee900041ed0ebd8edd418757ee"
+    },
+    "original_training_entry_available": false,
+    "complete_original_dataset_available": false,
+    "complete_original_training_reproduction": false
+  },
+  {
+    "id": 1,
+    "style": "cubist",
+    "display_name": "立体派",
+    "model_directory": "models/cubist",
+    "weight_directory": "weights/cubist",
+    "checkpoints": {
+      "models/cubist/checkpoints/FP32_best.pt": "33e2071eb0ddaa7ac64be7993630c362bc9edb3ac452ec23c664f580807d22c0",
+      "models/cubist/checkpoints/INT8_tensor_bundle.pt": "2516c76e15e22484c73a1cf9e0f29dc98178f85acd02060ac259fb121857112c",
+      "models/cubist/checkpoints/QAT_master.pt": "4ce3be3c26be808509e64968f59a7b690e83cfdf17890fca51e9b6b56b564153"
+    },
+    "original_training_entry_available": true,
+    "complete_original_dataset_available": false,
+    "complete_original_training_reproduction": false,
+    "original_training_entry": "models/training/cubist/train.py"
+  },
+  {
+    "id": 2,
+    "style": "abstract",
+    "display_name": "抽象派",
+    "model_directory": "models/abstract",
+    "weight_directory": "weights/abstract",
+    "checkpoints": {
+      "models/abstract/checkpoints/FP32_best.pt": "bd4a08ff8252887fa09e7831bbc111719df2e0d658d69fc1e1542a5c3f798329",
+      "models/abstract/checkpoints/INT8_tensor_bundle.pt": "3d47141dd677f04e57d072fa586f4b357d3c8d81c076b80ca8d8f0481004d4e1",
+      "models/abstract/checkpoints/QAT_master.pt": "89748d1a3520fed1396d89de2f97adf8da9897136a6ce2961ae6d3e6deed0ee1",
+      "models/abstract/checkpoints/blue_glass_init_fp32.pt": "30cc4b19dd8f6160cca05255a51bd7f2b4384d305b240330d611f8d2a8457884"
+    },
+    "original_training_entry_available": true,
+    "complete_original_dataset_available": false,
+    "complete_original_training_reproduction": false,
+    "original_training_entry": "models/training/abstract/run.py",
+    "teacher_checkpoint_available": false,
+    "teacher_directory": "models/abstract/teacher/magenta",
+    "training_config": "models/training/abstract/configs/train.json",
+    "training_scope": "Final FP32/QAT stage from supplied pretrained initialization; not complete random-initialization history",
+    "training_IN": "current-frame InstanceNorm; historical-frame IN update is not trained",
+    "source_package": "BLUE_GLASS_TRAINING_SOURCE_20261102/blue_glass_training_20261102",
+    "teacher_storage": "external_on_demand",
+    "teacher_preparation": "models/abstract/teacher/README.md"
+  },
+  {
+    "id": 3,
+    "style": "mosaic",
+    "display_name": "马赛克",
+    "model_directory": "models/mosaic",
+    "weight_directory": "weights/mosaic",
+    "checkpoints": {
+      "models/mosaic/checkpoints/FP32_best.pt": "5fabc7cec708ee0bf933d7ac78a26e39f5ecaead2ecee100b45c75ee268fc394",
+      "models/mosaic/checkpoints/INT8_tensor_bundle.pt": "cc1a264e493126951d78ef60d6ccefc56f85e6040f2de4cff201dbf2ffd7fca0",
+      "models/mosaic/checkpoints/QAT_master.pt": "acaaa7dd8ad543b5289b5b55799b6ec46c97de59f9f0c2741a022191e953bc54",
+      "models/mosaic/checkpoints/texture_v2_init.pt": "260564460852df0b1791058af9eaeab404120d050a7a5851f5965df8c5d4c0ed"
+    },
+    "original_training_entry_available": true,
+    "complete_original_dataset_available": false,
+    "complete_original_training_reproduction": false,
+    "teacher_checkpoint_available": true,
+    "original_training_entry": "models/training/mosaic/mosaic.py"
+  }
+]

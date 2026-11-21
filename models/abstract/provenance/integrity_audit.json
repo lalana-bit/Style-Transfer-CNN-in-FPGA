@@ -1,0 +1,11 @@
+{
+  "original_engineering_files_checked": 1337,
+  "original_engineering_changed": [],
+  "exact_image_overlap": {
+    "train__val": 0,
+    "train__test": 0,
+    "train__external_test": 0,
+    "val__test": 0
+  },
+  "previous_mosaic_package_unchanged": true
+}

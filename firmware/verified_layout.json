@@ -1,0 +1,24 @@
+{
+  "file": "FLASH_CNN_CAMERA_START_0x00000000.hex",
+  "bytes": 4787328,
+  "start_address": "0x00000000",
+  "hex_sha256": "2b83afbe609c96f89693178f1a377de8a08ddc2ed58e7a344e4655651b75fccd",
+  "bit_sha256": "97f8f5331d1a973344a8afe5c5bb18af026f2c07dd72a4cedf685956158d3eac",
+  "CPU_sha256": "3cbb2aa9fcaefc59e5be027765c9cafdcfc99763a7f17d18d434be72171ad372",
+  "includes_four_test_weight_sets": true,
+  "includes_IN_tables": true,
+  "includes_static_images": false,
+  "includes_voice_control": false,
+  "official_merger_byte_verified": true,
+  "setup_WNS_ns": 0.048,
+  "hold_WNS_ns": 0.024,
+  "resources": {
+    "XLR": 59684,
+    "RAM": 245,
+    "DSP": 119
+  },
+  "experimental": true,
+  "weights_trained_for_new_decoder": false,
+  "board_programmed": false,
+  "flash_written": false
+}

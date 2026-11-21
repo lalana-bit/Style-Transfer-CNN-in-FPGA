@@ -1,0 +1,58 @@
+{
+  "paths": {
+    "content": "../../../../data/abstract/content",
+    "targets": "../../../../build/training/abstract/targets",
+    "magenta": "../../../abstract/teacher/magenta",
+    "vgg": "../../../../data/perceptual/vgg16-397923af.pth",
+    "style": "../../../abstract/teacher/art1.png",
+    "init": "../../../abstract/checkpoints/blue_glass_init_fp32.pt",
+    "run": "../../../../build/training/abstract/run",
+    "teacher_python": "../../../../.venv-teacher/Scripts/python.exe",
+    "target_archive": null
+  },
+  "teacher": {
+    "strength": 0.65,
+    "train_count": 1024,
+    "eval_count": null,
+    "batch": 4,
+    "cpu_threads": 4
+  },
+  "train": {
+    "device": "cuda",
+    "cpu_threads": 4,
+    "seed": 20261101,
+    "batch": 6,
+    "fp32_steps": 2400,
+    "qat_steps": 800,
+    "lr": 0.0003,
+    "qat_lr": 1.5e-05,
+    "calibration_count": 64,
+    "log_every": 100,
+    "eval_every": 400
+  },
+  "loss": {
+    "style_scale": 0.75,
+    "weights": {
+      "gram": 2.0,
+      "coarse": 1.0,
+      "patch": 1.0,
+      "content": 0.6,
+      "layout": 0.2,
+      "outline": 0.25,
+      "palette": 12.0,
+      "pixel": 4.0,
+      "coarse_pixel": 1.5,
+      "teacher_perceptual": 1.0,
+      "texture_energy": 0.7,
+      "hf_excess": 85.0,
+      "tv": 0.2,
+      "checker": 40.0
+    }
+  },
+  "export": {
+    "cpu_threads": 4,
+    "calibration_count": 24,
+    "test_count": 144,
+    "history_frames": 45
+  }
+}

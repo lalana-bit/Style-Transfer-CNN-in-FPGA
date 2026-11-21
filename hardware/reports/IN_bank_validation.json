@@ -1,0 +1,12 @@
+[
+  {
+    "test": "IN_bank_update",
+    "passed": true,
+    "pixels": 128,
+    "sha256": "653b6550faebac8a5706aa63dd64d3c8d170c1b0e1f7b08b618f4379fe021ab9",
+    "cycles": [
+      45526,
+      45526
+    ]
+  }
+]

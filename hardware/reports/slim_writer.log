@@ -1,0 +1,2 @@
+PASS writer complete_frames=3 AXI_beats=20736 addresses=6966 gap9_backpressure_pause=1
+writer_tb.v:60: $finish called at 5334480000 (1ps)

@@ -1,0 +1,9 @@
+{
+  "code_consolidated": true,
+  "post_consolidation_training_run": false,
+  "post_consolidation_tests_run": false,
+  "post_consolidation_validation_run": false,
+  "reason": "User requested code consolidation only; no rerun or verification.",
+  "original_engineering_modified": false,
+  "existing_weight_delivery_modified": false
+}

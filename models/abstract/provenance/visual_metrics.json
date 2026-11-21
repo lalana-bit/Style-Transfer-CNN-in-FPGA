@@ -1,0 +1,26 @@
+{
+  "selected_run": "run03_magenta065",
+  "validation_images": 144,
+  "semantics": "CPU instantaneous-IN numeric replay; image statistics are diagnostics, not subjective quality scores",
+  "metrics": {
+    "direct_run01": {
+      "high_frequency": 0.008335472097516887,
+      "TV": 0.20149029781007105,
+      "coarse_luminance_correlation": 0.8552237442798085,
+      "chroma_energy": 0.02086591426955743,
+      "dark_pixel_fraction": 0.34350378738923204
+    },
+    "refined_selected": {
+      "high_frequency": 0.003377049967336158,
+      "TV": 0.1386476651661926,
+      "coarse_luminance_correlation": 0.9212390805284182,
+      "chroma_energy": 0.010878629368057268,
+      "dark_pixel_fraction": 0.23219939740374684
+    }
+  },
+  "HF_change_percent": -59.485798430755096,
+  "TV_change_percent": -31.188912482086472,
+  "portrait_is_seen_teacher_anchor": true,
+  "portrait_not_in_validation_metrics": true,
+  "board_tested": false
+}

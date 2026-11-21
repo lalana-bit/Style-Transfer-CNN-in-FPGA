@@ -1,0 +1,25 @@
+--ramHex "E:\sth_interesting\elinx_project\Ti60f225_sc431hai2hdmi_v6-3\Ti60f225_sc431hai2hdmi_v6\embedded_sw/cnn_boot_soc/software/standalone/cnn_weight_loader/build/cnn_weight_loader.hex"
+--Atomic false
+--FpuDouble false
+--L1I false
+--Fpu false
+--softTap false
+--spi name=system_spi_0_io,address=0x014000,interruptId=4,width=8,ssCount=1,fifoDepth=64
+--ddrAEnable false
+--uart name=system_uart_0_io,address=0x010000,interruptId=1,fifoDepth=64
+--withRiscvDebugPriv
+--lowArea 5
+--L1D false
+--PeripheralClock false
+--noBarrelShifter
+--cpuCount 1
+--noMulDiv
+--onChipRamAddress 0xf9000000
+--axiAEnable false
+--apbSlave name=io_apbSlave_0,address=0x100000,size=4096
+--i2c name=system_i2c_0_io,address=0x015000,interruptId=8
+--apbBridgeAddress 0xf8000000
+--onChipRamSize 0x4000
+--hardwareBreakpoints 0
+--systemFrequency 100000000
+--Linux false

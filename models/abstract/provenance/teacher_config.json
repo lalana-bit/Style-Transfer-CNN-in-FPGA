@@ -1,0 +1,11 @@
+{
+  "style": "Blue leaded glass from art1 output",
+  "teacher_only": true,
+  "parameters": 1679235,
+  "steps": 2200,
+  "train_images": 2560,
+  "additional_supervised_reference_pair": 1,
+  "portrait_is_training_data": true,
+  "source_engineering_modified": false,
+  "seed": 20261101
+}

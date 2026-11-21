@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "fresh_unzip": true,
+  "fresh_python_process": true,
+  "unrelated_cwd": true,
+  "PYTHONPATH_cleared": true,
+  "CUDA_hidden": true,
+  "CPU_torch_used": true,
+  "checks": {
+    "verify": {
+      "exit_code": 0,
+      "stdout": "{\"status\": \"PASS\", \"hash_files\": 55, \"packed_sidecars\": true, \"mem_formats\": true, \"checkpoint_and_INT8_bundle\": true, \"affine\": true, \"current_integer_fixture\": true, \"history60_integer_fixture\": true, \"board_tested\": false}"
+    },
+    "current": {
+      "exit_code": 0,
+      "stdout": "Saved D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\portable_validation\\current.png mode: instantaneous IN diagnostic"
+    },
+    "history60": {
+      "exit_code": 0,
+      "stdout": "Saved D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\portable_validation\\history.png mode: historical IN"
+    }
+  },
+  "current_CLI_pixels_match": true,
+  "history60_CLI_pixels_match": true,
+  "board_tested": false
+}

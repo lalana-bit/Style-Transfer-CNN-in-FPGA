@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "teacher": "actual repository pretrained Magenta with latent strength .65",
+  "reference_is_art1_output": true,
+  "train_images": 1024,
+  "val_images": 144,
+  "test_images": 144,
+  "alpha": 0.65,
+  "no_output_photo_blending": true,
+  "original_Magenta_retrained": false,
+  "elapsed_s": 192.72639203071594
+}

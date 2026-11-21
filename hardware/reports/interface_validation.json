@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": {
+    "pool": "PASS pool cycles=80000 captures=474 reads=642 pause_faults=1",
+    "writer": "PASS writer complete_frames=3 AXI_beats=20736 addresses=6966 gap9_backpressure_pause=1",
+    "scaler": "PASS scaler full_frames=2 864x486_to_256x144 cycle_equivalence_gap9=1 cycles=6406824",
+    "reader": "PASS DDR reader CNN_frames=2 pixels=839808 display_lines=111 simultaneous_backpressure=1",
+    "weights": "PASS four_style_DDR_cache weight_bytes_each=63296 IN_bytes_each=3200 writes=16624 IN_reads=800"
+  },
+  "CNN_and_camera_sources_unchanged": [
+    "software/cnn_weight_loader/src/camera_init.h",
+    "software/cnn_weight_loader/src/cnn_in_runtime.h",
+    "software/cnn_weight_loader/src/cnn_in_math.h",
+    "rtl/cnn_accel/rtl/cnn_core.v",
+    "rtl/cnn_accel/rtl/cnn_mac.v",
+    "rtl/cnn_accel/rtl/cnn_conv.v",
+    "rtl/cnn_accel/rtl/cnn_standard_resblock.v",
+    "rtl/cnn_accel/rtl/cnn_resblock.v",
+    "rtl/cnn_accel/rtl/cnn_in.v"
+  ]
+}

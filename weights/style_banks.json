@@ -1,0 +1,49 @@
+{
+  "weight_bytes": 63296,
+  "affine_bytes": 3200,
+  "banks": [
+    {
+      "id": 0,
+      "name": "STARRY_E012_IN15_TRAINED",
+      "directory": "weights/runtime/starry",
+      "weight_flash": 4194304,
+      "affine_flash": 4325376,
+      "display_name": "星空",
+      "model_directory": "models/starry",
+      "source_weight_directory": "weights/starry"
+    },
+    {
+      "id": 1,
+      "name": "CUBIST_IN15_TRAINED",
+      "directory": "weights/runtime/cubist",
+      "weight_flash": 4456448,
+      "affine_flash": 4521984,
+      "display_name": "立体派",
+      "model_directory": "models/cubist",
+      "source_weight_directory": "weights/cubist"
+    },
+    {
+      "id": 2,
+      "name": "BLUE_GLASS_IN15_TRAINED",
+      "directory": "weights/runtime/abstract",
+      "weight_flash": 4587520,
+      "affine_flash": 4653056,
+      "display_name": "抽象派",
+      "model_directory": "models/abstract",
+      "source_weight_directory": "weights/abstract"
+    },
+    {
+      "id": 3,
+      "name": "MOSAIC_TEXTURE_V2_IN15_TRAINED",
+      "directory": "weights/runtime/mosaic",
+      "weight_flash": 4718592,
+      "affine_flash": 4784128,
+      "display_name": "马赛克",
+      "model_directory": "models/mosaic",
+      "source_weight_directory": "weights/mosaic"
+    }
+  ],
+  "cache_bytes": 66496,
+  "DDR_bank_stride_bytes": 131072,
+  "scope": "当前hardware工程运行包；原训练导出资料位于各风格目录"
+}

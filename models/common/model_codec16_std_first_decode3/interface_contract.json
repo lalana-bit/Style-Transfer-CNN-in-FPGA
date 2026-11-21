@@ -1,0 +1,47 @@
+{
+  "architecture": "stem8_enc16_32_stdres1_sep4_project3_stddec16_8_3_in15_v1",
+  "input_hw": [
+    144,
+    256
+  ],
+  "residual_order": [
+    "standard_3x3_3x3",
+    "depthwise_3x3_pointwise_1x1",
+    "depthwise_3x3_pointwise_1x1",
+    "depthwise_3x3_pointwise_1x1",
+    "depthwise_3x3_pointwise_1x1"
+  ],
+  "residual_channels": 32,
+  "IN_sites": 15,
+  "convolutions": 16,
+  "weight_bits": 8,
+  "bias_bits": 20,
+  "multiplier_bits": 31,
+  "shift_range": [
+    32,
+    47
+  ],
+  "scan_segments": 55,
+  "scan_bytes": 46176,
+  "changed_weight_segments": {
+    "9": 9216,
+    "12": 9216,
+    "39": 4608
+  },
+  "IN_affine_bytes": 3200,
+  "traced_trained_model_available": false,
+  "decoder_first": {
+    "shape": [
+      16,
+      32,
+      3,
+      3
+    ],
+    "stride": 1,
+    "groups": 1,
+    "padding_mode": "replicate"
+  },
+  "DDR_IN_offset": 46176,
+  "DDR_cache_bytes": 49376,
+  "weight_order": "CO,CI,KY,KX; no sparse/zero compression"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "test": "starry",
+    "passed": true,
+    "pixels": 64,
+    "sha256": "6fc52b636e715b457bf7b82d14e478e0728adfbd6ad42012ccbd679c9910e92b",
+    "cycles": [
+      45526
+    ]
+  },
+  {
+    "test": "cubist",
+    "passed": true,
+    "pixels": 64,
+    "sha256": "8386bbaeb98de9c060fdcdc3f40c50d169612301e02ba2dcc7b9d260b540180f",
+    "cycles": [
+      45526
+    ]
+  },
+  {
+    "test": "abstract",
+    "passed": true,
+    "pixels": 64,
+    "sha256": "d14f336365698cce271ffbcce74da839cf6ba6b2c36a8af161f8cdf1753a7f46",
+    "cycles": [
+      45526
+    ]
+  },
+  {
+    "test": "mosaic",
+    "passed": true,
+    "pixels": 64,
+    "sha256": "53c110bf7fa49c58d32718f98c1d8e477cf13dfe062011423ceaa55897417342",
+    "cycles": [
+      45526
+    ]
+  },
+  {
+    "test": "dense",
+    "passed": true,
+    "pixels": 128,
+    "sha256": "e094a71b82250867ec11bc14075299e7afe74f86aa90ae5d69a20f255c282707",
+    "cycles": [
+      70914
+    ]
+  },
+  {
+    "test": "abort",
+    "passed": true,
+    "pixels": 64,
+    "sha256": "6fc52b636e715b457bf7b82d14e478e0728adfbd6ad42012ccbd679c9910e92b",
+    "cycles": [
+      45526
+    ]
+  }
+]

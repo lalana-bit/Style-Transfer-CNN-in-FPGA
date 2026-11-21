@@ -1,0 +1,18 @@
+{
+  "alphas": [
+    1.0,
+    0.8,
+    0.65,
+    0.5
+  ],
+  "original_full_style_max_abs_difference": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "style_embedding": "bottleneck/Mean:0, 768 channels",
+  "method": "linear interpolation between style-reference and current-content embeddings, before all style parameter projections; no output/photo pixel blending",
+  "elapsed_s": 13.01581621170044
+}

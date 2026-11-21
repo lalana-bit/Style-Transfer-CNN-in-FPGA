@@ -1,0 +1,2 @@
+PASS pool cycles=80000 captures=474 reads=642 pause_faults=1
+pool_tb.v:36: $finish called at 800046000 (1ps)

@@ -1,0 +1,88 @@
+{
+  "inspection": "static_files_imports_paths_only",
+  "same_delivery_category_as_mosaic": true,
+  "python_files_parsed": 21,
+  "source_files": [
+    "run.py",
+    "src/blue_glass/__init__.py",
+    "src/blue_glass/config.py",
+    "src/blue_glass/data.py",
+    "src/blue_glass/export.py",
+    "src/blue_glass/hardware.py",
+    "src/blue_glass/inference.py",
+    "src/blue_glass/losses.py",
+    "src/blue_glass/preview.py",
+    "src/blue_glass/teacher.py",
+    "src/blue_glass/train.py",
+    "src/blue_glass/validate.py",
+    "src/model_codec16/__init__.py",
+    "src/model_codec16/integer_reference.py",
+    "src/model_codec16/model.py",
+    "src/model_codec16/packing.py",
+    "src/model_codec16/quantization.py",
+    "src/model_codec16_in/__init__.py",
+    "src/model_codec16_in/model.py",
+    "src/model_codec16_in/streaming_reference.py",
+    "tools/fetch_assets.py"
+  ],
+  "syntax_or_local_import_errors": [],
+  "missing_required_files": [],
+  "local_input_paths": {
+    "content": {
+      "path": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\data",
+      "exists": true
+    },
+    "magenta": {
+      "path": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\blue_glass_training_20261102\\assets\\magenta",
+      "exists": true
+    },
+    "vgg": {
+      "path": "C:\\Users\\jiulong\\.cache\\torch\\hub\\checkpoints\\vgg16-397923af.pth",
+      "exists": true
+    },
+    "style": {
+      "path": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\blue_glass_training_20261102\\assets\\art1.png",
+      "exists": true
+    },
+    "init": {
+      "path": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\blue_glass_training_20261102\\checkpoints\\blue_glass_init_fp32.pt",
+      "exists": true
+    },
+    "teacher_python": {
+      "path": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_glass_20261101\\tf_env\\Scripts\\python.exe",
+      "exists": true
+    },
+    "target_archive": {
+      "path": "D:\\download\\48fccc723348bc4745afe1929d1855e4_7768021268352314826_m.zip",
+      "exists": true
+    },
+    "torch_deps": {
+      "path": "D:\\download\\Ti60F225_DemoBoard_v4\\training_runs\\codec16_mosaic_20261031\\deps",
+      "exists": true
+    },
+    "train_content": {
+      "exists": true
+    },
+    "val_content": {
+      "exists": true
+    },
+    "test_content": {
+      "exists": true
+    },
+    "external_test_content": {
+      "exists": true
+    }
+  },
+  "all_configured_local_inputs_present": true,
+  "included_teacher_files": 4,
+  "included_checkpoint_files": 3,
+  "large_external_assets": [
+    "content datasets",
+    "VGG16 weights",
+    "installed Python/CUDA/TensorFlow environments"
+  ],
+  "training_executed": false,
+  "numerical_validation_executed": false,
+  "consolidated_runtime_tested": false,
+  "historical_reports_are_not_new_test_results": true
+}

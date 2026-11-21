@@ -1,0 +1,2 @@
+PASS four_style_DDR_cache weight_bytes_each=63296 IN_bytes_each=3200 writes=16624 IN_reads=800
+weights_tb.v:94: $finish called at 2650571000 (1ps)

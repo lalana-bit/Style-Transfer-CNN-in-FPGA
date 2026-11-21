@@ -1,0 +1,2 @@
+PASS DDR reader CNN_frames=2 pixels=839808 display_lines=111 simultaneous_backpressure=1
+reader_tb.v:73: $finish called at 5506375000 (1ps)

@@ -1,0 +1,18 @@
+{
+  "target_archive": "48fccc723348bc4745afe1929d1855e4_7768021268352314826_m.zip",
+  "target_archive_sha256": "5236d7c4dc601e9241f3b800356d2578d7c082a8eb1c8afdbd7da83d8c04fc39",
+  "all_16_layer_geometry_matches": true,
+  "all55_segment_units_types_match": true,
+  "model_definitions_identical": true,
+  "selected_bank": 1,
+  "replaces": "Candy",
+  "keeps_bank0": "Starry E012",
+  "main_flash": "0x00410000",
+  "affine_flash": "0x00430000",
+  "DDR_main": "0x02010000",
+  "DDR_affine": "0x02016180",
+  "overlay_applied": false,
+  "firmware_rebuilt": false,
+  "board_tested": false,
+  "directly_flashable": false
+}
